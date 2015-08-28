@@ -1,0 +1,9 @@
+# Site settings
+title: KirovohradJS
+description: Website for KirovohradJS conference
+keywords: Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS
+baseurl: ""
+url: "http://kirovohradjs.com"
+
+# Build settings
+markdown: kramdown
