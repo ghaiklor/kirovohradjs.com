@@ -1,12 +1,56 @@
 <head>
-  <meta charset="utf-8">
+  {% capture title %}{% if page.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+
+  {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.article %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 20 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+
+  {% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}
+
+  {% capture canonical %}{{ site.url }}{{ site.baseurl }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove: 'index.html' | '/' }}{% else %}{{ page.url | remove: 'index.html' | '/' }}{% endif %}{% endcapture %}
+
+  <!-- GENERAL META TAGS -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-language" content="en">
+  <meta name="language" content="English">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <meta name="copyright" content="ghaiklor">
+  <meta name="author" content="Eugene Obrezkov, ghaiklor@gmail.com">
+  <meta name="reply-to" content="ghaiklor@gmail.com">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
+  <meta name="rating" content="General">
+  <meta name="target" content="all">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="{{ description }}"/>
+  <meta name="keywords" content="{{ keywords }}">
+  <title>{{ title }}</title>
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- OPEN GRAPH META TAGS -->
+  <meta property="og:site_name" content="{{ title }}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:description" content="{{ description }}"/>
+  <meta property="og:url" content="{{ canonical }}"/>
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/favicon.png"/>
+  <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}/favicon.png"/>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <!-- TWITTER META TAGS -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@kirovohradjs"/>
+  <meta name="twitter:title" content="{{ title }}"/>
+  <meta name="twitter:description" content="{{ description }}"/>
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/favicon.png"/>
+
+  <!-- LINK META TAGS -->
+  <link rel="canonical" href="{{ canonical }}"/>
+  <link rel="apple-touch-icon" type="image/x-icon" href="/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+
+  <!-- CSS STYLES -->
+  <link rel="stylesheet" href="/assets/css/vendor/normalize.css"/>
+  <link rel="stylesheet" href="/assets/css/vendor/foundation.css"/>
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
 </head>
