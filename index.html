@@ -2,10 +2,12 @@
 layout: default
 ---
 
-{% include navigation.html year="2015" %}
-{% include header.html year="2015" %}
-{% include speakers.html year="2015" %}
-{% include partners.html year="2015" %}
-{% include schedule.html year="2015" %}
-{% include place.html year="2015" %}
-{% include organizers.html year="2015" %}
+{% assign year = "2015" %}
+
+{% include navigation.html year=site.year %}
+{% include header.html year=site.year %}
+{% include speakers.html year=site.year %}
+{% include partners.html year=site.year %}
+{% include schedule.html year=site.year %}
+{% include place.html year=site.year %}
+{% include organizers.html year=site.year %}
