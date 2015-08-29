@@ -1,7 +1,7 @@
 # Site settings
-title: KirovohradJS
-description: Website for KirovohradJS conference
-keywords: Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS
+title: KirovohradJS - Конференция для JS разработчиков в Кировограде
+description: KirovohradJS - это конференция для JavaScript и NodeJS разработчиков в Кировограде
+keywords: Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS, Кировоград
 baseurl: ""
 url: "http://kirovohradjs.com"
 
