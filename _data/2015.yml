@@ -1,12 +1,3 @@
-speakers:
-  - name: Eugene Obrezkov
-    title: generator-sails-rest-api
-    description: How I won the fight vs. SailsJS
-    photo: ghaiklor.jpg
-schedule:
-  - time: "11:00"
-    speaker: Eugene Obrezkov
-    title: generator-sails-rest-api
 partners:
   gold:
     - logo: test.jpg
@@ -19,4 +10,14 @@ partners:
       link: http://test.com/
 place:
   address: test
+  date: 15 September, 2015, 11:00
   embed: embed code
+schedule:
+  - time: "11:00"
+    speaker: Eugene Obrezkov
+    title: generator-sails-rest-api
+speakers:
+  - name: Eugene Obrezkov
+    title: generator-sails-rest-api
+    description: How I won the fight vs. SailsJS
+    photo: ghaiklor.jpg
