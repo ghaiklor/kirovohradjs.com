@@ -1,10 +1,12 @@
 # Site settings
-year: "2015"
 title: "KirovohradJS &middot; Конференция для JS разработчиков в Кировограде"
 description: "KirovohradJS - это конференция для JavaScript и NodeJS разработчиков в Кировограде"
 keywords: "Кировоград, Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS"
 baseurl: ""
 url: "http://kirovohradjs.com"
+
+# Main year for index.html file
+year: "2015"
 
 # Build settings
 markdown: kramdown
