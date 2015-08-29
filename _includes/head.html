@@ -1,5 +1,5 @@
 <head>
-  {% capture title %}{% if page.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+  {% capture title %}{% if page.title %}{{ site.title }} &middot; {{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
 
   {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.article %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 20 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 
