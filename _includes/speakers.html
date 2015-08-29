@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
+    {% for speaker in site.data.speakers_2015 %}
+    <div class="row">
+      <div class="large-3">
+        {{ speaker.name }}
+        {{ speaker.title }}
+        {{ speaker.description }}
+        {{ speaker.photo }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
