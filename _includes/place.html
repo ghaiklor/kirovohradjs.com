@@ -1,9 +1,11 @@
+{% assign place = site.data[include.year].place %}
+
 <section class="row place text-center">
   <div>
     <h3 data-magellan-destination="place">Место</h3>
     <a name="place"></a>
 
-    {{ site.data.2015.place.address }}
-    {{ site.data.2015.place.embed }}
+    {{ place.address }}
+    {{ place.embed }}
   </div>
 </section>

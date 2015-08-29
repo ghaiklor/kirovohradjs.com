@@ -1,22 +1,26 @@
+{% assign gold = site.data[include.year].partners.gold %}
+{% assign silver = site.data[include.year].partners.silver %}
+{% assign bronze = site.data[include.year].partners.bronze %}
+
 <section class="row partners full-width">
   <div class="text-center">
     <h3 data-magellan-destination="partners">Партнеры</h3>
     <a name="partners"></a>
 
     <h4>Gold</h4>
-    {% for partner in site.data.2015.partners.gold %}
+    {% for partner in gold %}
     {{ partner.logo }}
     {{ partner.link }}
     {% endfor %}
 
     <h4>Silver</h4>
-    {% for partner in site.data.2015.partners.silver %}
+    {% for partner in silver %}
     {{ partner.logo }}
     {{ partner.link }}
     {% endfor %}
 
     <h4>Bronze</h4>
-    {% for partner in site.data.2015.partners.bronze %}
+    {% for partner in bronze %}
     {{ partner.logo }}
     {{ partner.link }}
     {% endfor %}

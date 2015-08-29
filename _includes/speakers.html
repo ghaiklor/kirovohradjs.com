@@ -1,6 +1,7 @@
+{% assign speakers = site.data[include.year].speakers %}
 <div class="row">
   <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
-    {% for speaker in site.data.2015.speakers %}
+    {% for speaker in speakers %}
     <div class="row">
       <div class="large-3">
         {{ speaker.name }}
