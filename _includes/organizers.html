@@ -1,6 +1,8 @@
 {% assign organizers = site.data[include.year].organizers %}
 <section class="row organizers full-width">
   <div class="text-center">
+    <h3>Организаторы</h3>
+
     {% for organizer in organizers %}
     {{ organizer.name }}
     {{ organizer.photo }}

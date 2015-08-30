@@ -1,6 +1,6 @@
 {% assign speakers = site.data[include.year].speakers %}
-<div class="row">
-  <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
+<section class="row speakers full-width">
+  <div class="text-center">
     {% for speaker in speakers %}
     <div class="row">
       <div class="large-3">
@@ -12,4 +12,4 @@
     </div>
     {% endfor %}
   </div>
-</div>
+</section>
