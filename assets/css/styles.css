@@ -36,10 +36,17 @@ header.header .row.title {
 
 header.header .row.title h1 {
   font-family: 'Poiret One', cursive;
-  font-size: 10vh;
   font-style: normal;
   font-weight: bolder;
   color: #FFFFFF;
+}
+
+header.header .row.title h1.large {
+  font-size: 10vh;
+}
+
+header.header .row.title h1.small {
+  font-size: 6vh;
 }
 
 header.header .row.date {
