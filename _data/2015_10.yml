@@ -4,11 +4,11 @@ header:
   time: "11:00"
   register_link: "/"
 organizers:
-  - name: Eugene Obrezkov
-    photo: ghaiklor.jpg
-    skype: ghaiklor
-    email: ghaiklor@gmail.com
-    mobile: +380(50)22-66-791
+  - name: "Eugene Obrezkov"
+    photo: "ghaiklor.jpg"
+    skype: "ghaiklor"
+    email: "ghaiklor@gmail.com"
+    mobile: "+380502266791"
 partners:
   gold:
     - logo: test.jpg
