@@ -97,12 +97,18 @@ div.navigation {
   background-color: #000000;
 }
 
-div.navigation a {
+nav.top-bar {
+  background-color: #000000;
+}
+
+nav.top-bar .top-bar-section li a:not(.button) {
+  background-color: #000000;
   color: #FFFFFF;
 }
 
-div.navigation a:hover {
-  color: #B3B3B3;
+nav.top-bar .top-bar-section li a:not(.button):hover {
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 /* ORGANIZERS */
