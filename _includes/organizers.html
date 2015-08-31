@@ -3,13 +3,44 @@
 <a name="organizers" data-magellan-destination="organizers"></a>
 
 <section class="row organizers full-width">
-  <div class="text-center">
-    <h3>Организаторы</h3>
+  <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+    <div class="row title">
+      <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+        <h3>Organizers</h3>
+      </div>
+    </div>
 
-    {% for organizer in organizers %}
-    {{ organizer.name }}
-    {{ organizer.photo }}
-    {{ organizer.mobile }}
-    {% endfor %}
+    <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+      {% for organizer in organizers %}
+      <li>
+        <div class="row photo">
+          <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+            <img class="transition" src="/assets/img/organizers/{{ organizer.photo }}" alt="{{ organizer.name }}"/>
+          </div>
+        </div>
+
+        <div class="row name">
+          <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+            <span class="name">{{ organizer.name }}</span>
+          </div>
+        </div>
+
+        <div class="row contacts">
+          <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+            Skype:
+            <a href="skype:{{ organizer.skype }}?add">{{ organizer.skype }}</a>
+            <br/>
+
+            Email:
+            <a href="mailto://{{ organizer.email }}">{{ organizer.email }}</a>
+            <br/>
+
+            Mobile:
+            <span>{{ organizer.mobile }}</span>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
