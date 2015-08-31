@@ -2,11 +2,10 @@
 {% assign silver = site.data[include.year].partners.silver %}
 {% assign bronze = site.data[include.year].partners.bronze %}
 
+<a name="partners" data-magellan-destination="partners"></a>
+
 <section class="row partners full-width">
   <div class="text-center">
-    <h3 data-magellan-destination="partners">Партнеры</h3>
-    <a name="partners"></a>
-
     <h4>Gold</h4>
     {% for partner in gold %}
     {{ partner.logo }}
