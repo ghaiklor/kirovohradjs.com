@@ -7,20 +7,27 @@
 }
 
 /* HEADER */
-section.header {
+header.header {
+  background: url("/assets/img/header-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-top: 2em;
   padding-bottom: 2em;
   margin-bottom: 2em;
-  background-color: #C0D7C7;
-  min-height: 600px;
-  max-height: 600px;
+  min-height: 750px;
+  max-height: 750px;
+  height: 750px;
+}
+
+header.header h1, header.header, h2 {
+  color: #FFFFFF;
 }
 
 /* NAVIGATION */
 div.navigation {
-  background-color: black;
-  color: #FFFFFF;
-  text-align: center;
+  background-color: #000000;
 }
 
 div.navigation a {
