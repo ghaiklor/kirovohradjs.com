@@ -6,6 +6,18 @@
   max-width: initial;
 }
 
+.valign-middle.row {
+  display: table;
+  width: inherit;
+  height: 100%;
+}
+
+.valign-middle .valign-item {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* HEADER */
 header.header {
   background: url("/assets/img/header-bg.jpg") no-repeat center center fixed;
@@ -13,16 +25,24 @@ header.header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-bottom: 2em;
   min-height: 750px;
   max-height: 750px;
   height: 750px;
 }
 
-header.header h1, header.header, h2 {
+header.header .title {
   color: #FFFFFF;
+}
+
+header.header .description {
+  color: #FFFFFF;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+header.header .register.button {
+  background-color: transparent;
+  border: 5px solid #FFFFFF;
 }
 
 /* NAVIGATION */
