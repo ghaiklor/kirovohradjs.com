@@ -1,9 +1,25 @@
+{% assign header = site.data[include.date].header %}
+
 <header class="row header full-width valign-middle">
   <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered valign-item">
-    <h1 class="title">KirovohradJS</h1>
+    <div class="row title">
+      <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
+        <h1>{{ header.title }}</h1>
+      </div>
+    </div>
 
-    <h2 class="description">{{ site.description }}</h2>
+    <div class="row date">
+      <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
+        <span class="time">{{ header.time }}</span>
+        <br/>
+        <span class="date">{{ header.date }}</span>
+      </div>
+    </div>
 
-    <a href="#" class="register button">Register</a>
+    <div class="row register">
+      <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
+        <a href="#" class="button">Register</a>
+      </div>
+    </div>
   </div>
 </header>

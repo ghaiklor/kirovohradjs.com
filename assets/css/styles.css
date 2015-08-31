@@ -30,19 +30,43 @@ header.header {
   height: 750px;
 }
 
-header.header .title {
+header.header .row.title {
+  margin-bottom: 1rem;
+}
+
+header.header .row.title h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 10vh;
   color: #FFFFFF;
 }
 
-header.header .description {
-  color: #FFFFFF;
-  padding-top: 2em;
-  padding-bottom: 2em;
+header.header .row.date {
+  margin-bottom: 10rem;
 }
 
-header.header .register.button {
+header.header .row.date span.time {
+  font-family: 'Poiret One', cursive;
+  font-size: 5vh;
+  color: #FFFFFF;
+}
+
+header.header .row.date span.date {
+  font-family: 'Poiret One', cursive;
+  font-size: 5vh;
+  color: #FFFFFF;
+}
+
+header.header .row.register .button {
+  font-family: 'Poiret One', cursive;
+  font-size: 5vh;
+  text-transform: uppercase;
   background-color: transparent;
   border: 5px solid #FFFFFF;
+}
+
+header.header .row.register .button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 /* NAVIGATION */

@@ -5,8 +5,8 @@ keywords: "Кировоград, Kirovohrad, NodeJS, NodeSchool, JavaScript, Kir
 baseurl: ""
 url: "http://kirovohradjs.com"
 
-# Main year for index.html file
-year: "2015"
+# Main date for index.html file
+date: "2015"
 
 # Build settings
 markdown: kramdown
