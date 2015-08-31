@@ -1,3 +1,3 @@
 (function () {
-  console.log('Make it works');
+  $(document).foundation();
 })();
