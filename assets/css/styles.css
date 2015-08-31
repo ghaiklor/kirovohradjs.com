@@ -31,12 +31,14 @@ header.header {
 }
 
 header.header .row.title {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 header.header .row.title h1 {
   font-family: 'Poiret One', cursive;
   font-size: 10vh;
+  font-style: normal;
+  font-weight: bolder;
   color: #FFFFFF;
 }
 
@@ -44,27 +46,32 @@ header.header .row.date {
   margin-bottom: 10rem;
 }
 
-header.header .row.date span.time {
-  font-family: 'Poiret One', cursive;
-  font-size: 5vh;
-  color: #FFFFFF;
-}
-
 header.header .row.date span.date {
   font-family: 'Poiret One', cursive;
   font-size: 5vh;
-  color: #FFFFFF;
+  font-style: normal;
+  font-weight: lighter;
+  color: #B3B3B3;
 }
 
-header.header .row.register .button {
+header.header .row.date span.time {
+  font-family: 'Poiret One', cursive;
+  font-size: 5vh;
+  font-style: normal;
+  font-weight: lighter;
+  color: #B3B3B3;
+}
+
+header.header .row.register a.button {
   font-family: 'Poiret One', cursive;
   font-size: 5vh;
   text-transform: uppercase;
   background-color: transparent;
+  color: #B3B3B3;
   border: 5px solid #FFFFFF;
 }
 
-header.header .row.register .button:hover {
+header.header .row.register a.button:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
