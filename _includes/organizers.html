@@ -5,7 +5,7 @@
 <section class="row organizers full-width">
   <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
     <div class="row title">
-      <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+      <div class="large-6 medium-8 small-10 large-centered medium-centered small-centered columns text-center">
         <h3>Organizers</h3>
       </div>
     </div>
@@ -14,29 +14,33 @@
       {% for organizer in organizers %}
       <li>
         <div class="row photo">
-          <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+          <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns text-center">
             <img class="transition" src="/assets/img/organizers/{{ organizer.photo }}" alt="{{ organizer.name }}"/>
           </div>
         </div>
 
         <div class="row name">
-          <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
+          <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns text-center">
             <span class="name">{{ organizer.name }}</span>
           </div>
         </div>
 
         <div class="row contacts">
-          <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
-            <i class="fa fa-skype"></i>
-            <a href="skype:{{ organizer.skype }}?add">{{ organizer.skype }}</a>
-            <br/>
+          <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns text-center">
+            <div class="skype">
+              <i class="fa fa-skype"></i>
+              <a href="skype:{{ organizer.skype }}?add">{{ organizer.skype }}</a>
+            </div>
 
-            <i class="fa fa-envelope"></i>
-            <a href="mailto://{{ organizer.email }}">{{ organizer.email }}</a>
-            <br/>
+            <div class="email">
+              <i class="fa fa-envelope"></i>
+              <a href="mailto://{{ organizer.email }}">{{ organizer.email }}</a>
+            </div>
 
-            <i class="fa fa-mobile-phone"></i>
-            <span>{{ organizer.mobile }}</span>
+            <div class="mobile">
+              <i class="fa fa-mobile-phone"></i>
+              <span>{{ organizer.mobile }}</span>
+            </div>
           </div>
         </div>
       </li>
