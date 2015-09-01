@@ -1,3 +1,8 @@
+/* RESET */
+html, body {
+  overflow-x: hidden;
+}
+
 /* HELPERS */
 .full-width {
   width: 100%;
