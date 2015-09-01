@@ -142,7 +142,6 @@ section.organizers ul .row.photo img {
   filter: grayscale(1);
   border-radius: 100%;
   border: 3px solid #FFFFFF;
-  min-height: 100%;
   max-height: 100%;
 }
 
