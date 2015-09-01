@@ -94,7 +94,30 @@ header.header .row.register a.button:hover {
 }
 
 /* NAVIGATION */
-div.top-bar-section li:not(.has-form) a:not(.button) {
+div.navigation {
+  background-color: #000000;
+}
+
+nav.top-bar {
+  background-color: #000000;
+}
+
+nav.top-bar li.name a {
+  font-weight: lighter;
+  font-size: 12pt;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+section.top-bar-section li:not(.has-form) a:not(.button) {
+  font-weight: lighter;
+  font-size: 12pt;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+section.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #333333;
   color: #FFFFFF;
 }
 
