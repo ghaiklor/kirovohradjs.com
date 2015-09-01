@@ -258,9 +258,19 @@ section.place .row.embed iframe {
 
 /* SCHEDULE */
 section.schedule {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-top: 2em;
+  background-color: #D8D2A4;
+}
+
+section.schedule .row.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+
+section.schedule .row.title h3 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 /* SPEAKERS */
