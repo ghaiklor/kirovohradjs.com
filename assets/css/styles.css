@@ -94,11 +94,7 @@ header.header .row.register a.button:hover {
 }
 
 /* NAVIGATION */
-div.navigation {
-  background-color: #000000;
-}
-
-div.navigation dd a {
+div.top-bar-section li:not(.has-form) a:not(.button) {
   color: #FFFFFF;
 }
 
