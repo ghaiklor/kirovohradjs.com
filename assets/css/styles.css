@@ -112,7 +112,6 @@ section.organizers .row.title {
 section.organizers .row.title h3 {
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
-  font-weight: bolder;
   color: #FFFFFF;
 }
 
@@ -141,12 +140,23 @@ section.organizers ul .row.photo img:hover {
 }
 
 section.organizers ul .row.name {
-  padding-bottom: 1rem;
+  padding-bottom: 0.3em;
 }
 
 section.organizers ul .row.name span.name {
   font-size: 16pt;
-  font-weight: lighter;
+  font-weight: 200;
+}
+
+section.organizers ul .row.contacts a {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  font-size: 20pt;
+  color: #666666;
+}
+
+section.organizers ul .row.contacts a:hover {
+  color: #000000;
 }
 
 /* PARTNERS */

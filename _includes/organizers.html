@@ -2,49 +2,36 @@
 
 <a name="organizers"></a>
 
-<section class="row organizers full-width">
-  <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns text-center">
-    <div class="row title">
-      <div class="large-6 medium-8 small-10 large-centered medium-centered small-centered columns text-center">
-        <h3>Organizers</h3>
-      </div>
-    </div>
-
-    <ul class="large-block-grid-1 medium-block-grid-1 small-block-grid-1">
-      {% for organizer in organizers %}
-      <li>
-        <div class="row photo">
-          <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns text-center">
-            <img class="transition" src="/assets/img/organizers/{{ organizer.photo }}" alt="{{ organizer.name }}"/>
-          </div>
-        </div>
-
-        <div class="row name">
-          <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns text-center">
-            <span class="name">{{ organizer.name }}</span>
-          </div>
-        </div>
-
-        <div class="row contacts">
-          <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns text-center">
-            <div class="skype">
-              <i class="fa fa-skype"></i>
-              <a href="skype:{{ organizer.skype }}?add">{{ organizer.skype }}</a>
-            </div>
-
-            <div class="email">
-              <i class="fa fa-envelope"></i>
-              <a href="mailto:{{ organizer.email }}">{{ organizer.email }}</a>
-            </div>
-
-            <div class="mobile">
-              <i class="fa fa-mobile-phone"></i>
-              <a href="tel:{{ organizer.mobile }}">{{ organizer.mobile }}</a>
-            </div>
-          </div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
+<section class="row organizers text-center full-width">
+  <div class="row title">
+    <h3>Organizers</h3>
   </div>
+
+  <ul class="large-block-grid-1 medium-block-grid-1 small-block-grid-1">
+    {% for organizer in organizers %}
+    <li>
+      <div class="row photo">
+        <img class="transition" src="/assets/img/organizers/{{ organizer.photo }}" alt="{{ organizer.name }}"/>
+      </div>
+
+      <div class="row name">
+        <span class="name">{{ organizer.name }}</span>
+      </div>
+
+      <div class="row contacts">
+        <a href="skype:{{ organizer.skype }}?add" title="{{ organizer.skype }}">
+          <i class="fa fa-skype"></i>
+        </a>
+
+        <a href="mailto:{{ organizer.email }}" title="{{ organizer.email }}">
+          <i class="fa fa-envelope"></i>
+        </a>
+
+        <a href="tel:{{ organizer.mobile }}" title="{{ organizer.mobile }}">
+          <i class="fa fa-mobile-phone"></i>
+        </a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
