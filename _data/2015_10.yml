@@ -15,15 +15,15 @@ organizers:
     email: "dmytro.bohdanov@gmail.com"
     mobile: "+380954650411"
 partners:
-  gold:
-    - logo: test.jpg
-      link: http://test.com/
-  silver:
-    - logo: test.jpg
-      link: http://test.com/
-  bronze:
-    - logo: test.jpg
-      link: http://test.com/
+  - title: Test
+    logo: blank.jpg
+    link: http://test.com/
+  - title: Test
+    logo: blank.jpg
+    link: http://test.com/
+  - title: Test
+    logo: blank.jpg
+    link: http://test.com/
 place:
   address: test
   date: 15 September, 2015, 11:00

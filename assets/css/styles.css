@@ -184,9 +184,32 @@ section.organizers ul .row.contacts a:hover {
 
 /* PARTNERS */
 section.partners {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-top: 2em;
+  background-color: #D8D2A4;
+}
+
+section.partners .row.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+
+section.partners .row.title h3 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+section.partners ul {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+section.partners ul .row.partner {
+  height: 100px;
+}
+
+section.partners ul .row.partner a img {
+  max-height: 100%;
 }
 
 /* PLACE */
