@@ -6,18 +6,6 @@
   max-width: initial;
 }
 
-.valign-middle.row {
-  display: table;
-  width: inherit;
-  height: 100%;
-}
-
-.valign-middle .valign-item {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
 .no-selection {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
