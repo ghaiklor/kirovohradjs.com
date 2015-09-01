@@ -2,17 +2,26 @@
 
 <a name="speakers"></a>
 
-<section class="row speakers full-width">
-  <div class="text-center">
-    {% for speaker in speakers %}
-    <div class="row">
-      <div class="large-3">
-        {{ speaker.name }}
-        {{ speaker.title }}
-        {{ speaker.description }}
-        {{ speaker.photo }}
-      </div>
-    </div>
-    {% endfor %}
+<section class="row speakers text-center full-width">
+  <div class="row title">
+    <h3>Speakers</h3>
   </div>
+
+  <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+    <li>
+      {% for speaker in speakers %}
+      <div class="row photo">
+        <img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{ speaker.name }}"/>
+      </div>
+
+      <div class="row name">
+        <span>{{ speaker.name }}</span>
+      </div>
+
+      <div class="row speech">
+        <span>{{ speaker.title }}</span>
+      </div>
+      {% endfor %}
+    </li>
+  </ul>
 </section>

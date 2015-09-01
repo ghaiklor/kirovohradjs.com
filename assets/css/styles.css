@@ -275,7 +275,48 @@ section.schedule .row.title h3 {
 
 /* SPEAKERS */
 section.speakers {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-top: 2em;
+  background-color: #D8D2A4;
+}
+
+section.speakers .row.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+
+section.speakers .row.title h3 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+section.speakers ul {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+section.speakers ul .row.photo {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+section.speakers ul .row.photo img {
+  border-radius: 100%;
+  border: 3px solid #FFFFFF;
+  max-height: 100%;
+}
+
+section.speakers ul .row.name {
+  margin-bottom: 0.3em;
+}
+
+section.speakers ul .row.name span {
+  font-size: 16pt;
+  font-weight: lighter;
+}
+
+section.speakers ul .row.speech span {
+  font-size: 14pt;
+  font-weight: lighter;
+  color: #333333;
 }
