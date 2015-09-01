@@ -214,9 +214,46 @@ section.partners ul .row.partner a img {
 
 /* PLACE */
 section.place {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin-top: 2em;
+  background-color: #D8D2A4;
+}
+
+section.place .row.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000000;
+}
+
+section.place .row.title h3 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+section.place .row.address {
+  margin-top: 2rem;
+}
+
+section.place .row.address span {
+  font-size: 16pt;
+  font-weight: lighter;
+}
+
+section.place .row.date {
+  margin-bottom: 2rem;
+}
+
+section.place .row.date span {
+  font-size: 16pt;
+  font-weight: lighter;
+}
+
+section.place .row.embed {
+  padding: 0;
+  margin: 0;
+}
+
+section.place .row.embed iframe {
+  display: block;
 }
 
 /* SCHEDULE */
