@@ -35,14 +35,14 @@ header.header {
 }
 
 header.header .row.title {
-  margin-top: 5rem;
+  margin-top: 10rem;
   margin-bottom: 2rem;
 }
 
 header.header .row.title h1 {
   font-family: 'Poiret One', cursive;
   font-style: normal;
-  font-weight: bolder;
+  font-weight: lighter;
   color: #FFFFFF;
 }
 
