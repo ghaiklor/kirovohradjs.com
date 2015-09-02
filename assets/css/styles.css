@@ -107,13 +107,13 @@ section.top-bar-section li:not(.has-form) a:not(.button):hover {
 
 /* ORGANIZERS */
 section.organizers {
-  background-color: #D8D2A4;
+  background-color: #FFFFFF;
 }
 
 section.organizers .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #000000;
+  background-color: #69995D;
 }
 
 section.organizers .row.title h3 {
@@ -168,13 +168,13 @@ section.organizers ul .row.contacts a:hover {
 
 /* PARTNERS */
 section.partners {
-  background-color: #D8D2A4;
+  background-color: #FFFFFF;
 }
 
 section.partners .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #000000;
+  background-color: #69995D;
 }
 
 section.partners .row.title h3 {
@@ -198,13 +198,13 @@ section.partners ul .row.partner a img {
 
 /* PLACE */
 section.place {
-  background-color: #D8D2A4;
+  background-color: #FFFFFF;
 }
 
 section.place .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #000000;
+  background-color: #69995D;
 }
 
 section.place .row.title h3 {
@@ -242,13 +242,13 @@ section.place .row.embed iframe {
 
 /* SCHEDULE */
 section.schedule {
-  background-color: #D8D2A4;
+  background-color: #FFFFFF;
 }
 
 section.schedule .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #000000;
+  background-color: #69995D;
 }
 
 section.schedule .row.title h3 {
@@ -259,13 +259,13 @@ section.schedule .row.title h3 {
 
 /* SPEAKERS */
 section.speakers {
-  background-color: #D8D2A4;
+  background-color: #FFFFFF;
 }
 
 section.speakers .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #000000;
+  background-color: #69995D;
 }
 
 section.speakers .row.title h3 {
