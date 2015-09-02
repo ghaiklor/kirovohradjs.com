@@ -229,7 +229,7 @@ section.place .row.address {
 
 section.place .row.address span {
   font-size: 16pt;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 section.place .row.date {
@@ -238,7 +238,7 @@ section.place .row.date {
 
 section.place .row.date span {
   font-size: 16pt;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 section.place .row.embed {
