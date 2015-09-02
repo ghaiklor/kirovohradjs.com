@@ -114,6 +114,7 @@ section.organizers .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
+  box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
 section.organizers .row.title h3 {
@@ -129,13 +130,13 @@ section.organizers ul {
 
 section.organizers ul .row.photo {
   height: 200px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 section.organizers ul .row.photo img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
-  border-radius: 100%;
+  border-radius: 0;
   border: 3px solid #DDDDDD;
   max-height: 100%;
 }
@@ -143,21 +144,21 @@ section.organizers ul .row.photo img {
 section.organizers ul .row.photo img:hover {
   -webkit-filter: grayscale(0.2);
   filter: grayscale(0.2);
-  border-radius: 0;
+  border-radius: 100%;
 }
 
 section.organizers ul .row.name {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.2rem;
 }
 
 section.organizers ul .row.name span.name {
   font-size: 16pt;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 section.organizers ul .row.contacts a {
-  padding-left: 0.3em;
-  padding-right: 0.3em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
   font-size: 20pt;
   color: #333333;
 }
@@ -175,6 +176,7 @@ section.partners .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
+  box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
 section.partners .row.title h3 {
@@ -205,6 +207,7 @@ section.place .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
+  box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
 section.place .row.title h3 {
@@ -249,6 +252,7 @@ section.schedule .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
+  box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
 section.schedule .row.title h3 {
@@ -266,6 +270,7 @@ section.speakers .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
+  box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
 section.speakers .row.title h3 {
