@@ -86,30 +86,21 @@ header.header .row.register a.button:hover {
 }
 
 /* NAVIGATION */
-div.navigation {
-  background-color: #000000;
+div.navigation, nav.top-bar {
+  background-color: #F3DE2C;
+  box-shadow: 0 -2px 2px -2px #000000 inset;
 }
 
-nav.top-bar {
-  background-color: #000000;
-}
-
-nav.top-bar li.name a {
+nav.top-bar li.name a, section.top-bar-section li:not(.has-form) a:not(.button) {
   font-weight: lighter;
   font-size: 12pt;
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-section.top-bar-section li:not(.has-form) a:not(.button) {
-  font-weight: lighter;
-  font-size: 12pt;
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #F3DE2C;
+  box-shadow: 0 -2px 2px -2px #000000 inset;
+  color: #000000;
 }
 
 section.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: #333333;
+  background-color: #233D4D;
   color: #FFFFFF;
 }
 
