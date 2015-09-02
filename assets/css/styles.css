@@ -21,10 +21,10 @@ html, body {
 }
 
 .transition {
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 /* HEADER */
@@ -129,37 +129,37 @@ section.organizers ul {
 
 section.organizers ul .row.photo {
   height: 200px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 section.organizers ul .row.photo img {
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
   border-radius: 100%;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #DDDDDD;
   max-height: 100%;
 }
 
 section.organizers ul .row.photo img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
+  -webkit-filter: grayscale(0.2);
+  filter: grayscale(0.2);
+  border-radius: 0;
 }
 
 section.organizers ul .row.name {
-  padding-bottom: 0.3em;
+  margin-bottom: 0.1rem;
 }
 
 section.organizers ul .row.name span.name {
   font-size: 16pt;
-  font-weight: 200;
+  font-weight: lighter;
 }
 
 section.organizers ul .row.contacts a {
-  margin-left: 0.3em;
-  margin-right: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
   font-size: 20pt;
-  color: #666666;
+  color: #333333;
 }
 
 section.organizers ul .row.contacts a:hover {
