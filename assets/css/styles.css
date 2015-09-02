@@ -86,7 +86,8 @@ header.header .row.register a.button:hover {
 }
 
 /* NAVIGATION */
-div.navigation, nav.top-bar {
+div.navigation, nav.top-bar, nav.top-bar.expanded .title-area {
+  color: #000000;
   background-color: #F3DE2C;
   box-shadow: 0 -2px 2px -2px #000000 inset;
 }
