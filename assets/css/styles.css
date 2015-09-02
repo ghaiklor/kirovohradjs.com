@@ -195,7 +195,14 @@ section.partners ul .row.partner {
 }
 
 section.partners ul .row.partner a img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
   max-height: 100%;
+}
+
+section.partners ul .row.partner a img:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 /* PLACE */
