@@ -1,5 +1,10 @@
 /* RESET */
 html, body {
+  background: url("/assets/img/header-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   overflow-x: hidden;
 }
 
@@ -29,11 +34,6 @@ html, body {
 
 /* HEADER */
 header.header {
-  background: url("/assets/img/header-bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   min-height: 750px;
   max-height: 750px;
   height: 750px;
