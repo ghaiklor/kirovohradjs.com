@@ -88,14 +88,14 @@ header.header .row.register a.button:hover {
 /* NAVIGATION */
 div.navigation, nav.top-bar, nav.top-bar.expanded .title-area {
   color: #000000;
-  background-color: #F3DE2C;
+  background-color: #F7CA18;
   box-shadow: 0 -2px 2px -2px #000000 inset;
 }
 
 nav.top-bar li.name a, section.top-bar-section li:not(.has-form) a:not(.button) {
   font-weight: lighter;
   font-size: 12pt;
-  background-color: #F3DE2C;
+  background-color: #F7CA18;
   box-shadow: 0 -2px 2px -2px #000000 inset;
   color: #000000;
 }
@@ -107,13 +107,13 @@ section.top-bar-section li:not(.has-form) a:not(.button):hover {
 
 /* ORGANIZERS */
 section.organizers {
-  background-color: #FFFFFF;
+  background-color: #ECECEC;
 }
 
 section.organizers .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #69995D;
+  background-color: #6C7A89;
 }
 
 section.organizers .row.title h3 {
@@ -168,13 +168,13 @@ section.organizers ul .row.contacts a:hover {
 
 /* PARTNERS */
 section.partners {
-  background-color: #FFFFFF;
+  background-color: #ECECEC;
 }
 
 section.partners .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #69995D;
+  background-color: #6C7A89;
 }
 
 section.partners .row.title h3 {
@@ -198,13 +198,13 @@ section.partners ul .row.partner a img {
 
 /* PLACE */
 section.place {
-  background-color: #FFFFFF;
+  background-color: #ECECEC;
 }
 
 section.place .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #69995D;
+  background-color: #6C7A89;
 }
 
 section.place .row.title h3 {
@@ -242,13 +242,13 @@ section.place .row.embed iframe {
 
 /* SCHEDULE */
 section.schedule {
-  background-color: #FFFFFF;
+  background-color: #ECECEC;
 }
 
 section.schedule .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #69995D;
+  background-color: #6C7A89;
 }
 
 section.schedule .row.title h3 {
@@ -259,13 +259,13 @@ section.schedule .row.title h3 {
 
 /* SPEAKERS */
 section.speakers {
-  background-color: #FFFFFF;
+  background-color: #ECECEC;
 }
 
 section.speakers .row.title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #69995D;
+  background-color: #6C7A89;
 }
 
 section.speakers .row.title h3 {
