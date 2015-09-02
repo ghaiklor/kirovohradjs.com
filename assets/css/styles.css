@@ -63,15 +63,7 @@ header.header .row.date {
   margin-bottom: 10rem;
 }
 
-header.header .row.date span.date {
-  font-family: 'Poiret One', cursive;
-  font-size: 4vh;
-  font-style: normal;
-  font-weight: lighter;
-  color: #B3B3B3;
-}
-
-header.header .row.date span.time {
+header.header .row.date span.date, header.header .row.date span.time {
   font-family: 'Poiret One', cursive;
   font-size: 4vh;
   font-style: normal;
@@ -85,7 +77,7 @@ header.header .row.register a.button {
   text-transform: uppercase;
   background-color: transparent;
   color: #FFFFFF;
-  border: 5px solid #FFFFFF;
+  border: 3px solid #FFFFFF;
 }
 
 header.header .row.register a.button:hover {
