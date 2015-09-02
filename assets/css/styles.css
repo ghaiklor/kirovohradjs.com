@@ -247,6 +247,7 @@ section.place .row.embed {
 }
 
 section.place .row.embed iframe {
+  pointer-events: none;
   display: block;
 }
 
