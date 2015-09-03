@@ -1,6 +1,6 @@
 /* RESET */
 html, body {
-  background: transparent url("/assets/img/header-bg.jpg") repeat fixed center;
+  background: transparent url("/assets/img/header-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
