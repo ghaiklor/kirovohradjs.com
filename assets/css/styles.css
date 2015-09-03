@@ -1,10 +1,10 @@
 /* RESET */
 html, body {
-  background: transparent url("/assets/img/header-bg.jpg") repeat scroll center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: transparent url("/assets/img/header-bg.jpg") repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   overflow-x: hidden;
   height: auto;
 }
