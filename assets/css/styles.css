@@ -1,6 +1,6 @@
 /* RESET */
 html, body {
-  background: url("/assets/img/header-bg.jpg") repeat center center;
+  background: transparent url("/assets/img/header-bg.jpg") repeat scroll center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
