@@ -46,7 +46,7 @@ header.header .row.title {
 }
 
 header.header .row.title h1 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   font-style: normal;
   font-weight: lighter;
   color: #FFFFFF;
@@ -65,7 +65,7 @@ header.header .row.date {
 }
 
 header.header .row.date span.date, header.header .row.date span.time {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   font-size: 4vh;
   font-style: normal;
   font-weight: lighter;
@@ -73,7 +73,7 @@ header.header .row.date span.date, header.header .row.date span.time {
 }
 
 header.header .row.register a.button {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   font-size: 4vh;
   text-transform: uppercase;
   background-color: transparent;
@@ -119,7 +119,7 @@ section.organizers .row.title {
 }
 
 section.organizers .row.title h3 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -181,7 +181,7 @@ section.partners .row.title {
 }
 
 section.partners .row.title h3 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -219,7 +219,7 @@ section.place .row.title {
 }
 
 section.place .row.title h3 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -265,7 +265,7 @@ section.schedule .row.title {
 }
 
 section.schedule .row.title h3 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -283,7 +283,7 @@ section.speakers .row.title {
 }
 
 section.speakers .row.title h3 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
