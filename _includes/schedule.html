@@ -7,24 +7,51 @@
     </div>
 
     <div class="row schedule">
-      <table class="responsive">
-        <thead>
-        <tr>
-          <th>Time</th>
-          <th>Speaker</th>
-          <th>Title</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for item in schedule %}
-        <tr>
-          <td>{{ item.time }}</td>
-          <td>{{ item.speaker }}</td>
-          <td>{{ item.title }}</td>
-        </tr>
-        {% endfor %}
-        </tbody>
-      </table>
+      <div class="show-for-small-only">
+        <table class="responsive">
+          <tbody>
+          <tr>
+            <td>Time</td>
+            {% for item in schedule %}
+            <td>{{ item.time }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td>Speaker</td>
+            {% for item in schedule %}
+            <td>{{ item.speaker }}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td>Title</td>
+            {% for item in schedule %}
+            <td>{{ item.title }}</td>
+            {% endfor %}
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="show-for-medium-up hide-for-small-only">
+        <table>
+          <thead>
+          <tr>
+            <th>Time</th>
+            <th>Speaker</th>
+            <th>Title</th>
+          </tr>
+          </thead>
+          <tbody>
+          {% for item in schedule %}
+          <tr>
+            <td>{{ item.time }}</td>
+            <td>{{ item.speaker }}</td>
+            <td>{{ item.title }}</td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </section>
