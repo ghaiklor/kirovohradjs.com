@@ -11,19 +11,16 @@
         <table class="responsive">
           <tbody>
           <tr>
-            <td>Time</td>
             {% for item in schedule %}
             <td>{{ item.time }}</td>
             {% endfor %}
           </tr>
           <tr>
-            <td>Speaker</td>
             {% for item in schedule %}
             <td>{{ item.speaker }}</td>
             {% endfor %}
           </tr>
           <tr>
-            <td>Title</td>
             {% for item in schedule %}
             <td>{{ item.title }}</td>
             {% endfor %}
@@ -34,13 +31,6 @@
 
       <div class="show-for-medium-up hide-for-small-only">
         <table>
-          <thead>
-          <tr>
-            <th>Time</th>
-            <th>Speaker</th>
-            <th>Title</th>
-          </tr>
-          </thead>
           <tbody>
           {% for item in schedule %}
           <tr>

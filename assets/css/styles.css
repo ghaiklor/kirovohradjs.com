@@ -270,6 +270,15 @@ section.schedule .row.title h3 {
   color: #FFFFFF;
 }
 
+section.schedule .row.schedule {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section.schedule .row.schedule table {
+  margin: 0 auto;
+}
+
 /* SPEAKERS */
 section.speakers {
   background-color: #ECECEC;
