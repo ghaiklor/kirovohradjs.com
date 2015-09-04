@@ -1,19 +1,20 @@
 {% assign partners = site.data[include.date].partners %}
 
 <section id="partners" class="row partners text-center">
-  <div class="row title">
-    <h3>Partners</h3>
+  <div class="columns">
+    <div class="row title">
+      <h3>Partners</h3>
+    </div>
+    <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2">
+      {% for partner in partners %}
+      <li>
+        <div class="row partner">
+          <a href="{{ partner.link }}" target="_blank">
+            <img src="/assets/img/partners/{{ partner.logo }}" alt="{{ partner.title }}" title="{{ partner.title }}"/>
+          </a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-
-  <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2">
-    {% for partner in partners %}
-    <li>
-      <div class="row partner">
-        <a href="{{ partner.link }}" target="_blank">
-          <img src="/assets/img/partners/{{ partner.logo }}" alt="{{ partner.title }}" title="{{ partner.title }}"/>
-        </a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
 </section>

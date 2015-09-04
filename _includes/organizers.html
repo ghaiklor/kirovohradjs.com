@@ -1,35 +1,36 @@
 {% assign organizers = site.data[include.date].organizers %}
 
 <section id="organizers" class="row organizers text-center">
-  <div class="row title">
-    <h3>Organizers</h3>
+  <div class="columns">
+    <div class="row title">
+      <h3>Organizers</h3>
+    </div>
+    <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1">
+      {% for organizer in organizers %}
+      <li>
+        <div class="row photo">
+          <img class="transition" src="/assets/img/organizers/{{ organizer.photo }}" alt="{{ organizer.name }}"/>
+        </div>
+
+        <div class="row name">
+          <span class="name">{{ organizer.name }}</span>
+        </div>
+
+        <div class="row contacts">
+          <a href="skype:{{ organizer.skype }}?add" title="{{ organizer.skype }}">
+            <i class="fa fa-skype"></i>
+          </a>
+
+          <a href="mailto:{{ organizer.email }}" title="{{ organizer.email }}">
+            <i class="fa fa-envelope"></i>
+          </a>
+
+          <a href="tel:{{ organizer.mobile }}" title="{{ organizer.mobile }}">
+            <i class="fa fa-mobile-phone"></i>
+          </a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-
-  <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1">
-    {% for organizer in organizers %}
-    <li>
-      <div class="row photo">
-        <img class="transition" src="/assets/img/organizers/{{ organizer.photo }}" alt="{{ organizer.name }}"/>
-      </div>
-
-      <div class="row name">
-        <span class="name">{{ organizer.name }}</span>
-      </div>
-
-      <div class="row contacts">
-        <a href="skype:{{ organizer.skype }}?add" title="{{ organizer.skype }}">
-          <i class="fa fa-skype"></i>
-        </a>
-
-        <a href="mailto:{{ organizer.email }}" title="{{ organizer.email }}">
-          <i class="fa fa-envelope"></i>
-        </a>
-
-        <a href="tel:{{ organizer.mobile }}" title="{{ organizer.mobile }}">
-          <i class="fa fa-mobile-phone"></i>
-        </a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
 </section>
