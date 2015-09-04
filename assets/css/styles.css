@@ -1,5 +1,5 @@
 /* RESET */
-html, body {
+body {
   background: transparent url("/assets/img/header-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
