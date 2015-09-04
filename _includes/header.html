@@ -1,19 +1,21 @@
 {% assign header = site.data[include.date].header %}
 
 <header id="header" class="row header text-center no-selection">
-  <div class="row title">
-    <h1 class="large show-for-medium-up hide-for-small-only">{{ header.title }}</h1>
+  <div class="columns">
+    <div class="row title">
+      <h1 class="large show-for-medium-up hide-for-small-only">{{ header.title }}</h1>
 
-    <h1 class="small show-for-small-only hide-for-medium-up">{{ header.title }}</h1>
-  </div>
+      <h1 class="small show-for-small-only hide-for-medium-up">{{ header.title }}</h1>
+    </div>
 
-  <div class="row date">
-    <span class="date">{{ header.date }}</span>
-    <br/>
-    <span class="time">{{ header.time }}</span>
-  </div>
+    <div class="row date">
+      <span class="date">{{ header.date }}</span>
+      <br/>
+      <span class="time">{{ header.time }}</span>
+    </div>
 
-  <div class="row register">
-    <a href="{{ header.register_link }}" class="button transition">Register</a>
+    <div class="row register">
+      <a href="{{ header.register_link }}" class="button transition">Register</a>
+    </div>
   </div>
 </header>
