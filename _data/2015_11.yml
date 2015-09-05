@@ -32,14 +32,14 @@ place:
   date: "14 November, 2015, 11:00"
   embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.4727396590315!2d32.260026!3d48.5050017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d042a48f0f1c7d%3A0xc9a5a31f2c3d98c1!2z0JTQoNCmICJTbWFydCBIb3VzZSI!5e0!3m2!1sru!2sua!4v1441121480868"
 schedule:
-  - time: "11:00"
+  - time: "10:00"
     speaker: "Registration"
     title: ""
-  - time: "12:00"
+  - time: "11:00"
     speaker: "Eugene Obrezkov"
-    title: "generator-sails-rest-api"
+    title: "Why NodeJS is so FAsT?"
 speakers:
-  - name: Eugene Obrezkov
-    title: generator-sails-rest-api
-    description: How I won the fight vs. SailsJS
-    photo: ghaiklor.jpg
+  - name: "Eugene Obrezkov"
+    title: "Why NodeJS is so FAsT?"
+    description: "NodeJS is growing up the last years. But no one asks the question about NodeJS and its execution speed."
+    photo: "ghaiklor.jpg"

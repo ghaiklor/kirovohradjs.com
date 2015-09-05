@@ -337,9 +337,13 @@ section.speakers ul .photo {
 }
 
 section.speakers ul .photo img {
-  border-radius: 100%;
-  border: 3px solid #FFFFFF;
+  border-radius: 0;
+  border: 3px solid #DDDDDD;
   max-height: 100%;
+}
+
+section.speakers ul .photo img:hover {
+  border-radius: 100%;
 }
 
 section.speakers ul .name {
@@ -352,7 +356,7 @@ section.speakers ul .name span {
 }
 
 section.speakers ul .speech span {
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: lighter;
   color: #333333;
 }
