@@ -44,9 +44,7 @@ schedule:
 speakers:
   - name: "Eugene Obrezkov"
     title: "Why NodeJS is so FAsT?"
-    description: "NodeJS is growing up the last years. But no one asks the question about NodeJS and its execution speed."
     photo: "ghaiklor.jpg"
   - name: "Aleksey Shvayka"
     title: "Front End на Smalltalk"
-    description: ""
     photo: "shvaikalesh.jpg"
