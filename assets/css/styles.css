@@ -40,31 +40,31 @@ header.header {
   height: 100vh;
 }
 
-header.header .row.title {
+header.header .title {
   margin-top: 20vh;
   margin-bottom: 5vh;
 }
 
-header.header .row.title h1 {
+header.header .title h1 {
   font-family: 'Poiret One', monospace;
   font-style: normal;
   font-weight: lighter;
   color: #FFFFFF;
 }
 
-header.header .row.title h1.large {
+header.header .title h1.large {
   font-size: 10vh;
 }
 
-header.header .row.title h1.small {
+header.header .title h1.small {
   font-size: 6vh;
 }
 
-header.header .row.date {
+header.header .date {
   margin-bottom: 20vh;
 }
 
-header.header .row.date span.date, header.header .row.date span.time {
+header.header .date span.date, header.header .date span.time {
   font-family: 'Poiret One', monospace;
   font-size: 4vh;
   font-style: normal;
@@ -72,7 +72,7 @@ header.header .row.date span.date, header.header .row.date span.time {
   color: #B3B3B3;
 }
 
-header.header .row.register a.button {
+header.header .register a.button {
   font-family: 'Poiret One', monospace;
   font-size: 4vh;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ header.header .row.register a.button {
   border: 3px solid #FFFFFF;
 }
 
-header.header .row.register a.button:hover {
+header.header .register a.button:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
@@ -111,14 +111,14 @@ section.organizers {
   background-color: #ECECEC;
 }
 
-section.organizers .row.title {
+section.organizers .title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
   box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
-section.organizers .row.title h3 {
+section.organizers .title h3 {
   font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -129,12 +129,12 @@ section.organizers ul {
   padding-bottom: 2rem;
 }
 
-section.organizers ul .row.photo {
+section.organizers ul .photo {
   height: 200px;
   margin-bottom: 0.2rem;
 }
 
-section.organizers ul .row.photo img {
+section.organizers ul .photo img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   border-radius: 0;
@@ -142,29 +142,29 @@ section.organizers ul .row.photo img {
   max-height: 100%;
 }
 
-section.organizers ul .row.photo img:hover {
+section.organizers ul .photo img:hover {
   -webkit-filter: grayscale(0.2);
   filter: grayscale(0.2);
   border-radius: 100%;
 }
 
-section.organizers ul .row.name {
+section.organizers ul .name {
   margin-bottom: 0.2rem;
 }
 
-section.organizers ul .row.name span.name {
+section.organizers ul .name span.name {
   font-size: 16pt;
   font-weight: lighter;
 }
 
-section.organizers ul .row.contacts a {
+section.organizers ul .contacts a {
   padding-left: 0.2em;
   padding-right: 0.2em;
   font-size: 20pt;
   color: #333333;
 }
 
-section.organizers ul .row.contacts a:hover {
+section.organizers ul .contacts a:hover {
   color: #000000;
 }
 
@@ -173,14 +173,14 @@ section.partners {
   background-color: #ECECEC;
 }
 
-section.partners .row.title {
+section.partners .title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
   box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
-section.partners .row.title h3 {
+section.partners .title h3 {
   font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -191,17 +191,17 @@ section.partners ul {
   padding-bottom: 2rem;
 }
 
-section.partners ul .row.partner {
+section.partners ul .partner {
   height: 100px;
 }
 
-section.partners ul .row.partner a img {
+section.partners ul .partner a img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   max-height: 100%;
 }
 
-section.partners ul .row.partner a img:hover {
+section.partners ul .partner a img:hover {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
 }
@@ -211,43 +211,43 @@ section.place {
   background-color: #ECECEC;
 }
 
-section.place .row.title {
+section.place .title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
   box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
-section.place .row.title h3 {
+section.place .title h3 {
   font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
-section.place .row.address {
+section.place .address {
   margin-top: 2rem;
 }
 
-section.place .row.address span {
+section.place .address span {
   font-size: 16pt;
   font-weight: lighter;
 }
 
-section.place .row.date {
+section.place .date {
   margin-bottom: 2rem;
 }
 
-section.place .row.date span {
+section.place .date span {
   font-size: 16pt;
   font-weight: lighter;
 }
 
-section.place .row.embed {
+section.place .embed {
   padding: 0;
   margin: 0;
 }
 
-section.place .row.embed iframe {
+section.place .embed iframe {
   pointer-events: none;
   display: block;
 }
@@ -257,48 +257,48 @@ section.schedule {
   background-color: #ECECEC;
 }
 
-section.schedule .row.title {
+section.schedule .title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
   box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
-section.schedule .row.title h3 {
+section.schedule .title h3 {
   font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
-section.schedule .row.schedule {
+section.schedule .schedule {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-section.schedule .row.schedule table {
+section.schedule .schedule table {
   background: none;
   border: 0 solid #000000;
   margin: 0 auto;
   width: 100%;
 }
 
-section.schedule .row.schedule table tr {
+section.schedule .schedule table tr {
   border-top: 1px solid #6C7A89;
 }
 
-section.schedule .row.schedule table tr:first-child {
+section.schedule .schedule table tr:first-child {
   border-top: 0 solid #6C7A89;
 }
 
-section.schedule .row.schedule table tr:last-child {
+section.schedule .schedule table tr:last-child {
   border-bottom: 0 solid #6C7A89;
 }
 
-section.schedule .row.schedule table tr.even, table tr.alt, table tr:nth-of-type(even) {
+section.schedule .schedule table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: none;
 }
 
-section.schedule .row.schedule table tr td {
+section.schedule .schedule table tr td {
   font-weight: lighter;
   font-size: 16pt;
   text-align: center;
@@ -309,14 +309,14 @@ section.speakers {
   background-color: #ECECEC;
 }
 
-section.speakers .row.title {
+section.speakers .title {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #6C7A89;
   box-shadow: 0 -2px 2px -2px #000000, 0 2px 2px -2px #000000;
 }
 
-section.speakers .row.title h3 {
+section.speakers .title h3 {
   font-family: 'Poiret One', monospace;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -327,27 +327,27 @@ section.speakers ul {
   padding-bottom: 2rem;
 }
 
-section.speakers ul .row.photo {
+section.speakers ul .photo {
   height: 200px;
   margin-bottom: 1rem;
 }
 
-section.speakers ul .row.photo img {
+section.speakers ul .photo img {
   border-radius: 100%;
   border: 3px solid #FFFFFF;
   max-height: 100%;
 }
 
-section.speakers ul .row.name {
+section.speakers ul .name {
   margin-bottom: 0.3em;
 }
 
-section.speakers ul .row.name span {
+section.speakers ul .name span {
   font-size: 16pt;
   font-weight: lighter;
 }
 
-section.speakers ul .row.speech span {
+section.speakers ul .speech span {
   font-size: 14pt;
   font-weight: lighter;
   color: #333333;

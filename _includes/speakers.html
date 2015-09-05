@@ -1,26 +1,25 @@
 {% assign speakers = site.data[include.date].speakers %}
 
 <section id="speakers" class="row speakers text-center">
-  <div class="columns">
-    <div class="row title">
-      <h3>Speakers</h3>
-    </div>
-    <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
-      <li>
-        {% for speaker in speakers %}
-        <div class="row photo">
-          <img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{ speaker.name }}"/>
-        </div>
-
-        <div class="row name">
-          <span>{{ speaker.name }}</span>
-        </div>
-
-        <div class="row speech">
-          <span>{{ speaker.title }}</span>
-        </div>
-        {% endfor %}
-      </li>
-    </ul>
+  <div class="title">
+    <h3>Speakers</h3>
   </div>
+
+  <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+    <li>
+      {% for speaker in speakers %}
+      <div class="photo">
+        <img src="/assets/img/speakers/{{ speaker.photo }}" alt="{{ speaker.name }}"/>
+      </div>
+
+      <div class="name">
+        <span>{{ speaker.name }}</span>
+      </div>
+
+      <div class="speech">
+        <span>{{ speaker.title }}</span>
+      </div>
+      {% endfor %}
+    </li>
+  </ul>
 </section>

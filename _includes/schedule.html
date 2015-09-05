@@ -1,23 +1,21 @@
 {% assign schedule = site.data[include.date].schedule %}
 
 <section id="schedule" class="row schedule text-center">
-  <div class="columns">
-    <div class="row title">
-      <h3>Schedule</h3>
-    </div>
+  <div class="title">
+    <h3>Schedule</h3>
+  </div>
 
-    <div class="row schedule">
-      <table>
-        <tbody>
-        {% for item in schedule %}
-        <tr>
-          <td>{{ item.time }}</td>
-          <td>{{ item.speaker }}</td>
-          <td>{{ item.title }}</td>
-        </tr>
-        {% endfor %}
-        </tbody>
-      </table>
-    </div>
+  <div class="schedule">
+    <table>
+      <tbody>
+      {% for item in schedule %}
+      <tr>
+        <td>{{ item.time }}</td>
+        <td>{{ item.speaker }}</td>
+        <td>{{ item.title }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
   </div>
 </section>
