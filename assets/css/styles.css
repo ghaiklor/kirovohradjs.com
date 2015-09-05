@@ -276,7 +276,18 @@ section.schedule .row.schedule {
 }
 
 section.schedule .row.schedule table {
+  background: none;
+  border: 0 solid black;
   margin: 0 auto;
+  width: 100%;
+}
+
+section.schedule .row.schedule table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  background: none;
+}
+
+section.schedule .row.schedule table tr td {
+  text-align: center;
 }
 
 /* SPEAKERS */
