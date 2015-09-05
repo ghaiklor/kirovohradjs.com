@@ -304,7 +304,7 @@ section.schedule .schedule table tr.even, table tr.alt, table tr:nth-of-type(eve
 
 section.schedule .schedule table tr td {
   font-weight: lighter;
-  font-size: 16pt;
+  font-size: 12pt;
   text-align: center;
 }
 
