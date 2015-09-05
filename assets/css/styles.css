@@ -9,6 +9,10 @@ body {
   height: auto;
 }
 
+[class*="block-grid-"] {
+  margin: 0;
+}
+
 /* HELPERS */
 .full-width {
   width: 100%;
