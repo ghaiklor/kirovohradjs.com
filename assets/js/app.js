@@ -6,7 +6,7 @@
     offset: 50
   });
 
-  $('section.place .row.embed').on('click', function () {
+  $('section.place .embed').on('click', function () {
     $(this).find('iframe').css('pointer-events', 'auto');
   });
 })();
