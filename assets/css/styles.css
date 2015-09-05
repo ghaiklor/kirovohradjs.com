@@ -277,9 +277,21 @@ section.schedule .row.schedule {
 
 section.schedule .row.schedule table {
   background: none;
-  border: 0 solid black;
+  border: 0 solid #000000;
   margin: 0 auto;
   width: 100%;
+}
+
+section.schedule .row.schedule table tr {
+  border-top: 1px solid #6C7A89;
+}
+
+section.schedule .row.schedule table tr:first-child {
+  border-top: 0 solid #6C7A89;
+}
+
+section.schedule .row.schedule table tr:last-child {
+  border-bottom: 0 solid #6C7A89;
 }
 
 section.schedule .row.schedule table tr.even, table tr.alt, table tr:nth-of-type(even) {

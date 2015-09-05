@@ -7,41 +7,17 @@
     </div>
 
     <div class="row schedule">
-      <div class="show-for-small-only">
-        <table class="responsive">
-          <tbody>
-          <tr>
-            {% for item in schedule %}
-            <td>{{ item.time }}</td>
-            {% endfor %}
-          </tr>
-          <tr>
-            {% for item in schedule %}
-            <td>{{ item.speaker }}</td>
-            {% endfor %}
-          </tr>
-          <tr>
-            {% for item in schedule %}
-            <td>{{ item.title }}</td>
-            {% endfor %}
-          </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="show-for-medium-up hide-for-small-only">
-        <table>
-          <tbody>
-          {% for item in schedule %}
-          <tr>
-            <td>{{ item.time }}</td>
-            <td>{{ item.speaker }}</td>
-            <td>{{ item.title }}</td>
-          </tr>
-          {% endfor %}
-          </tbody>
-        </table>
-      </div>
+      <table>
+        <tbody>
+        {% for item in schedule %}
+        <tr>
+          <td>{{ item.time }}</td>
+          <td>{{ item.speaker }}</td>
+          <td>{{ item.title }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
