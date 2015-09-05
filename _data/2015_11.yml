@@ -15,18 +15,15 @@ organizers:
     email: "dmytro.bohdanov@gmail.com"
     mobile: "+380954650411"
 partners:
-  - title: Test
-    logo: blank.jpg
-    link: http://test.com/
-  - title: Test
-    logo: blank.jpg
-    link: http://test.com/
-  - title: Test
-    logo: blank.jpg
-    link: http://test.com/
-  - title: Test
-    logo: blank.jpg
-    link: http://test.com/
+  - title: "KoWo"
+    logo: "kowo.png"
+    link: "http://kowo.me"
+  - title: "Ш++"
+    logo: "shplusplus.png"
+    link: "http://programming.kr.ua"
+  - title: "Onix-Systems, LLC"
+    logo: "onix.png"
+    link: "http://onix-systems.com"
 place:
   address: "пер. Васильевский, 10 (5 этаж)"
   date: "14 November, 2015, 11:00"
