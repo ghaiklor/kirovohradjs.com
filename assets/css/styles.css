@@ -154,7 +154,7 @@ section.organizers ul .row.name {
 
 section.organizers ul .row.name span.name {
   font-size: 16pt;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 section.organizers ul .row.contacts a {
@@ -230,7 +230,7 @@ section.place .row.address {
 
 section.place .row.address span {
   font-size: 16pt;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 section.place .row.date {
@@ -239,7 +239,7 @@ section.place .row.date {
 
 section.place .row.date span {
   font-size: 16pt;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 section.place .row.embed {
@@ -299,6 +299,8 @@ section.schedule .row.schedule table tr.even, table tr.alt, table tr:nth-of-type
 }
 
 section.schedule .row.schedule table tr td {
+  font-weight: lighter;
+  font-size: 16pt;
   text-align: center;
 }
 
