@@ -292,22 +292,6 @@ section.schedule .schedule table {
   width: 100%;
 }
 
-section.schedule .schedule table tr {
-  border-top: 1px solid #6C7A89;
-}
-
-section.schedule .schedule table tr:first-child {
-  border-top: 0 solid #6C7A89;
-}
-
-section.schedule .schedule table tr:last-child {
-  border-bottom: 0 solid #6C7A89;
-}
-
-section.schedule .schedule table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: none;
-}
-
 section.schedule .schedule table tr td {
   font-weight: lighter;
   font-size: 12pt;
