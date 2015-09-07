@@ -1,4 +1,5 @@
 {% assign partners = site.data[include.date].partners %}
+{% assign become_a_partner_link = site.data[include.date].become_a_partner_link %}
 
 <section id="partners" class="row partners text-center">
   <div class="title">
@@ -16,4 +17,8 @@
     </li>
     {% endfor %}
   </ul>
+
+  <hr/>
+
+  <a href="{{ become_a_partner_link }}" class="button">Become a partner</a>
 </section>

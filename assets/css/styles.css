@@ -216,6 +216,20 @@ section.partners ul .partner a img:hover {
   filter: grayscale(1);
 }
 
+section.partners a.button {
+  font-family: 'Poiret One', monospace;
+  font-size: 3vh;
+  text-transform: uppercase;
+  background-color: #ECECEC;
+  color: #000000;
+  border: 3px solid #FFFFFF;
+}
+
+section.partners a.button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
 /* PLACE */
 section.place {
   background-color: #ECECEC;
