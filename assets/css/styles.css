@@ -378,3 +378,18 @@ section.speakers a.button:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
+
+section.footer {
+  background-color: #000000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section.footer a {
+  font-size: 20pt;
+  color: #DDDDDD;
+}
+
+section.footer a:hover {
+  color: #FFFFFF;
+}
