@@ -89,3 +89,6 @@ speakers:
   - name: "Aleksey Shvayka"
     title: "Front End на Smalltalk"
     photo: "shvaikalesh.jpg"
+  - name: "Andrew Orel"
+    title: "Native Addons for NodeJS"
+    photo: "ashaman1991.png"
