@@ -350,3 +350,17 @@ section.speakers ul .speech span {
   font-weight: lighter;
   color: #333333;
 }
+
+section.speakers a.button {
+  font-family: 'Poiret One', monospace;
+  font-size: 3vh;
+  text-transform: uppercase;
+  background-color: #ECECEC;
+  color: #000000;
+  border: 3px solid #FFFFFF;
+}
+
+section.speakers a.button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
