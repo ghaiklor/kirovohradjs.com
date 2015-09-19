@@ -382,15 +382,33 @@ section.speakers a.button:hover {
 /* FOOTER */
 section.footer {
   background-color: #000000;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
-section.footer a {
-  font-size: 20pt;
+section.footer .friends ul {
+  margin: 0;
+  padding: 0;
+}
+
+section.footer .friends ul li {
+  margin-right: 1rem;
+  display: inline;
+}
+
+section.footer .friends ul li a {
+  font-size: 12pt;
   color: #DDDDDD;
 }
 
-section.footer a:hover {
+section.footer .friends ul li a:hover {
+  color: #FFFFFF;
+}
+
+section.footer .social a {
+  font-size: 12pt;
+  color: #DDDDDD;
+}
+
+section.footer .social a:hover {
   color: #FFFFFF;
 }
