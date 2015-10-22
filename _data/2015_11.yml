@@ -1,109 +1,141 @@
 become_a_partner_link: "/assets/proposal_2015.pdf"
 become_a_speaker_link: "http://goo.gl/forms/BxAElO4T39"
+
 header:
   title: "KirovohradJS"
   date: "November 14, 2015"
   time: "10:00"
   register_link: "https://www.eventbrite.ca/e/kirovohradjs-tickets-18483260931"
+
 organizers:
   - name: "Eugene Obrezkov"
     photo: "ghaiklor.jpg"
     skype: "ghaiklor"
     email: "ghaiklor@gmail.com"
     mobile: "+380502266791"
+
   - name: "Dmytro Bohdanov"
     photo: "dmytro.bohdanov.jpg"
     skype: "dmytro.bohdanov"
     email: "dmytro.bohdanov@gmail.com"
     mobile: "+380954650411"
+
 partners:
   - title: "KoWo"
     logo: "kowo.png"
     link: "http://kowo.me"
+
   - title: "Ш++"
     logo: "shplusplus.png"
     link: "http://programming.kr.ua"
+
   - title: "Onix-Systems, LLC"
     logo: "onix.png"
     link: "http://onix-systems.com"
+
 place:
   address: "пер. Васильевский, 10 (5 этаж)"
   date: "14 November, 2015, 10:00"
   embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.4727396590315!2d32.260026!3d48.5050017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d042a48f0f1c7d%3A0xc9a5a31f2c3d98c1!2z0JTQoNCmICJTbWFydCBIb3VzZSI!5e0!3m2!1sru!2sua!4v1441121480868"
+
 schedule:
   - time: "10:00"
     speaker: "Registration"
     title: ""
+
   - time: "11:00"
     speaker: "Eugene Obrezkov"
     title: "Why NodeJS is so FAsT?"
+
   - time: "11:30"
     speaker: "Coffee Break"
     title: ""
+
   - time: "11:40"
     speaker: "Aleksey Shvayka"
     title: "Front End на Smalltalk"
+
   - time: "12:10"
     speaker: "Coffee Break"
     title: ""
+
   - time: "12:20"
     speaker: "Andrew Orel"
     title: "Native Addons for NodeJS"
+
   - time: "12:50"
     speaker: "Coffee Break"
     title: ""
+
   - time: "13:00"
     speaker: "Анастасия Смирнова"
     title: "Оптимизация рендеринга в Angular приложении"
+
   - time: "13:30"
     speaker: "Coffee Break"
     title: ""
+
   - time: "13:40"
     speaker: "Алексей Малашкевич"
     title: "Angular 2 без TypeScript"
+
   - time: "14:10"
     speaker: "Lunch"
     title: ""
+
   - time: "16:00"
     speaker: "Евгений Сафронов"
     title: "Архитектура Frontend приложения, или как не превратить проект в Вавилонскую башню"
+
   - time: "16:30"
     speaker: "Coffee Break"
     title: ""
+
   - time: "16:40"
     speaker: "Александр Павловский и Павел Коменда"
     title: "JavaScript Puzzlers"
+
   - time: "17:10"
     speaker: "Coffee Break"
     title: ""
+
   - time: "17:20"
     speaker: "Oleksandr Zubov"
     title: "ECMAScript 6"
+
   - time: "18:00"
     speaker: "The End"
     title: ""
+
 speakers:
   - name: "Eugene Obrezkov"
     title: "Why NodeJS is so FAsT?"
     photo: "ghaiklor.jpg"
+
   - name: "Aleksey Shvayka"
     title: "Front End на Smalltalk"
     photo: "shvaikalesh.jpg"
+
   - name: "Andrew Orel"
     title: "Native Addons for NodeJS"
     photo: "ashaman1991.png"
+
   - name: "Анастасия Смирнова"
     title: "Оптимизация рендеринга в Angular приложении"
     photo: "nastya.smirnova.jpg"
+
   - name: "Алексей Малашкевич"
     title: "Angular 2 без TypeScript"
     photo: "alexey.malashkevich.jpg"
+
   - name: "Евгений Сафронов"
     title: "Архитектура Frontend приложения, или как не превратить проект в Вавилонскую башню"
     photo: "eugene.safronov.jpg"
+
   - name: "Александр Павловский и Павел Коменда"
     title: "JavaScript Puzzlers"
     photo: "aleksandr.pavlovsky-pavel.komenda.jpg"
+
   - name: "Olexandr Zubov"
     title: "ECMAScript 6"
     photo: "olexandr.zubov.jpg"
