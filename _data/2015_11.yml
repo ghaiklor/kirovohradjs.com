@@ -33,6 +33,10 @@ partners:
     logo: "onix.png"
     link: "http://onix-systems.com"
 
+  - title: "Dynamic Streaming"
+    logo: "dynamic-streaming.png"
+    link: "http://dynamicstreaming.net"
+
 place:
   address: "пер. Васильевский, 10 (5 этаж)"
   date: "14 November, 2015, 10:00"
