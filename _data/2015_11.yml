@@ -44,64 +44,64 @@ schedule:
     title: ""
 
   - time: "11:00"
-    speaker: "Eugene Obrezkov"
-    title: "Why NodeJS is so FAsT?"
+    speaker: "Евгений Сафронов"
+    title: "Архитектура Frontend приложения, или как не превратить проект в Вавилонскую башню"
 
   - time: "11:30"
     speaker: "Coffee Break"
     title: ""
 
   - time: "11:40"
-    speaker: "Aleksey Shvayka"
-    title: "Front End на Smalltalk"
+    speaker: "Анастасия Смирнова"
+    title: "Оптимизация рендеринга в Angular приложении"
 
   - time: "12:10"
     speaker: "Coffee Break"
     title: ""
 
   - time: "12:20"
-    speaker: "Andrew Orel"
-    title: "Native Addons for NodeJS"
+    speaker: "Алексей Малашкевич"
+    title: "Angular 2 без TypeScript"
 
   - time: "12:50"
     speaker: "Coffee Break"
     title: ""
 
   - time: "13:00"
-    speaker: "Анастасия Смирнова"
-    title: "Оптимизация рендеринга в Angular приложении"
+    speaker: "Aleksey Shvayka"
+    title: "Front End на Smalltalk"
 
   - time: "13:30"
     speaker: "Coffee Break"
     title: ""
 
   - time: "13:40"
-    speaker: "Алексей Малашкевич"
-    title: "Angular 2 без TypeScript"
+    speaker: "Александр Павловский и Павел Коменда"
+    title: "JavaScript Puzzlers"
 
   - time: "14:10"
     speaker: "Lunch"
     title: ""
 
   - time: "16:00"
-    speaker: "Евгений Сафронов"
-    title: "Архитектура Frontend приложения, или как не превратить проект в Вавилонскую башню"
+    speaker: "Oleksandr Zubov"
+    title: "ECMAScript 6"
 
   - time: "16:30"
     speaker: "Coffee Break"
     title: ""
 
   - time: "16:40"
-    speaker: "Александр Павловский и Павел Коменда"
-    title: "JavaScript Puzzlers"
+    speaker: "Eugene Obrezkov"
+    title: "Why NodeJS is so FAsT?"
 
   - time: "17:10"
     speaker: "Coffee Break"
     title: ""
 
   - time: "17:20"
-    speaker: "Oleksandr Zubov"
-    title: "ECMAScript 6"
+    speaker: "Andrew Orel"
+    title: "Native Addons for NodeJS"
 
   - time: "18:00"
     speaker: "The End"
