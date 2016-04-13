@@ -72,6 +72,14 @@ schedule:
     title: ""
 
   - time: "15:00"
+    speaker: "Алексей Извалов"
+    title: "Освоение Phaser после Action Script 3"
+
+  - time: "15:40"
+    speaker: "Coffee Break"
+    title: ""
+
+  - time: "16:00"
     speaker: "..."
     title: "..."
 
@@ -87,3 +95,7 @@ speakers:
   - name: "Анастасия Смирнова"
     title: "Шаблоны проектирования в JavaScript"
     photo: "nastya.smirnova.jpg"
+
+  - name: "Алексей Извалов"
+    title: "Освоение Phaser после Action Script 3"
+    photo: "alexey.izvalov.jpg"
