@@ -99,3 +99,7 @@ speakers:
   - name: "Алексей Извалов"
     title: "Освоение Phaser после Action Script 3"
     photo: "alexey.izvalov.jpg"
+
+  - name: "Марк Орел"
+    title: "Bot Driven Development"
+    photo: "shmuga.jpg"
