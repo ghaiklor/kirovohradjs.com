@@ -103,3 +103,7 @@ speakers:
   - name: "Марк Орел"
     title: "Bot Driven Development"
     photo: "shmuga.jpg"
+
+  - name: "Евгений Сафронов"
+    title: "Competitive advantage of Angular 2.0"
+    photo: "eugene.safronov.jpg"
