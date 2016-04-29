@@ -44,44 +44,56 @@ place:
 
 schedule:
   - time: "11:00"
-    speaker: "Registration"
+    speaker: "Регистрация"
     title: ""
 
   - time: "12:00"
-    speaker: "Андрей Орел"
-    title: "Meteor"
-
-  - time: "12:40"
-    speaker: "Coffee Break"
-    title: ""
-
-  - time: "13:00"
     speaker: "Анастасия Смирнова"
     title: "Шаблоны проектирования в JavaScript"
 
-  - time: "13:40"
+  - time: "12:30"
     speaker: "Coffee Break"
     title: ""
 
-  - time: "14:00"
+  - time: "12:40"
     speaker: "Евгений Обрезков"
     title: "Функциональная парадигма в JavaScript"
 
-  - time: "14:40"
+  - time: "13:10"
     speaker: "Coffee Break"
     title: ""
 
-  - time: "15:00"
-    speaker: "Алексей Извалов"
-    title: "Освоение Phaser после Action Script 3"
+  - time: "13:20"
+    speaker: "Марк Орел"
+    title: "Bot Driven Development"
 
-  - time: "15:40"
-    speaker: "Coffee Break"
+  - time: "14:00"
+    speaker: "Lunch"
     title: ""
 
   - time: "16:00"
-    speaker: "..."
-    title: "..."
+    speaker: "Евгений Сафронов"
+    title: "Competitive advantage of Angular 2.0"
+
+  - time: "16:30"
+    speaker: "Coffee Break"
+    title: ""
+
+  - time: "16:40"
+    speaker: "Андрей Орел"
+    title: "Реактивный Meteor"
+
+  - time: "17:10"
+    speaker: "Coffee Break"
+    title: ""
+
+  - time: "17:20"
+    speaker: "Алексей Извалов"
+    title: "Освоение Phaser после Action Script 3"
+
+  - time: "18:00"
+    speaker: "Afterparty"
+    title: ""
 
 speakers:
   - name: "Евгений Обрезков"
