@@ -92,17 +92,17 @@ header.header .register a.button:hover {
 
 /* NAVIGATION */
 div.navigation, nav.top-bar, nav.top-bar.expanded .title-area {
-  color: #FFFFFF;
-  background-color: #2A3E41;
+  color: #000000;
+  background-color: #FFFFFF;
   box-shadow: 0 -3px 3px -3px #000000 inset;
 }
 
 nav.top-bar li.name a, section.top-bar-section li:not(.has-form) a:not(.button) {
   font-weight: normal;
   font-size: 12pt;
-  background-color: #2A3E41;
+  background-color: #FFFFFF;
   box-shadow: 0 -3px 3px -3px #000000 inset;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 section.top-bar-section li:not(.has-form) a:not(.button):hover {
