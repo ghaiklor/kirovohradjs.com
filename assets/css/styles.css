@@ -92,22 +92,30 @@ header.header .register a.button:hover {
 
 /* NAVIGATION */
 div.navigation, nav.top-bar, nav.top-bar.expanded .title-area {
-  color: #000000;
-  background-color: #FFFFFF;
-  box-shadow: 0 -3px 3px -3px #000000 inset;
+  color: #FFFFFF;
+  background-color: transparent;
 }
 
 nav.top-bar li.name a, section.top-bar-section li:not(.has-form) a:not(.button) {
   font-weight: normal;
   font-size: 12pt;
-  background-color: #FFFFFF;
-  box-shadow: 0 -3px 3px -3px #000000 inset;
-  color: #000000;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+section.top-bar-section li:not(.has-form) {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+section.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: transparent;
+  color: #FFFFFF;
 }
 
 section.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: transparent;
+  color: #B3B3B3;
 }
 
 /* ORGANIZERS */
