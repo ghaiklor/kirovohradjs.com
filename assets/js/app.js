@@ -2,8 +2,7 @@
   $(document).foundation();
 
   smoothScroll.init({
-    speed: 500,
-    offset: 50
+    speed: 500
   });
 
   $('section.place .embed').on('click', function () {
