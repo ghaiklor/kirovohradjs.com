@@ -4,7 +4,7 @@ become_a_speaker_link: "skype:ghaiklor?add"
 header:
   title: "KirovohradJS"
   date: "May 28, 2016"
-  time: "11:00"
+  time: "10:00"
   register_link: "https://kirovohradjs.eventbrite.ca"
 
 organizers:
@@ -39,7 +39,7 @@ partners:
 
 place:
   address: "пер. Васильевский, 10 (5 этаж)"
-  date: "28 May, 2016, 11:00"
+  date: "28 May, 2016, 10:00"
   embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.4727396590315!2d32.260026!3d48.5050017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d042a48f0f1c7d%3A0xc9a5a31f2c3d98c1!2z0JTQoNCmICJTbWFydCBIb3VzZSI!5e0!3m2!1sru!2sua!4v1441121480868"
 
 schedule:
@@ -51,32 +51,24 @@ schedule:
     speaker: "Анастасия Смирнова"
     title: "Шаблоны проектирования в JavaScript"
 
-  - time: "12:00"
+  - time: "11:40"
     speaker: "Евгений Обрезков"
     title: "Функциональная парадигма в JavaScript"
 
-  - time: "13:00"
+  - time: "12:40"
     speaker: "Марк Орел"
     title: "Bot Driven Development"
 
-  - time: "14:00"
-    speaker: "Перерыв"
-    title: ""
-
-  - time: "15:00"
-    speaker: "Евгений Сафронов"
-    title: "Competitive advantage of Angular 2.0"
-
-  - time: "16:00"
+  - time: "13:20"
     speaker: "Андрей Орел"
     title: "Реактивный Meteor"
 
-  - time: "17:00"
+  - time: "14:00"
     speaker: "Алексей Извалов"
     title: "Освоение Phaser после Action Script 3"
 
-  - time: "19:00"
-    speaker: "Afterparty"
+  - time: "15:00"
+    speaker: "Holy War"
     title: ""
 
 speakers:
@@ -99,7 +91,3 @@ speakers:
   - name: "Марк Орел"
     title: "Bot Driven Development"
     photo: "shmuga.jpg"
-
-  - name: "Евгений Сафронов"
-    title: "Competitive advantage of Angular 2.0"
-    photo: "eugene.safronov.jpg"
