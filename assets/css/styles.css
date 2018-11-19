@@ -65,15 +65,15 @@ header.header .title h1.small {
 }
 
 header.header .date {
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
 
 header.header .date span.date, header.header .date span.time {
   font-family: 'Poiret One', monospace;
-  font-size: 4vh;
+  font-size: 6vh;
   font-style: normal;
   font-weight: 100;
-  color: #B3B3B3;
+  color: white;
 }
 
 header.header .register a.button {
@@ -88,6 +88,26 @@ header.header .register a.button {
 header.header .register a.button:hover {
   background-color: #FFFFFF;
   color: #000000;
+}
+
+.header .container {
+  display: flex;
+  width: 60vw;
+  height: 55vh;
+  margin: 5rem auto;
+  align-items: center;
+}
+
+.header .container section {
+  flex: 1;
+}
+
+.header .container section:first-of-type {
+  height: 100%;
+}
+
+.header .container section img {
+  height: 100%;
 }
 
 /* NAVIGATION */
