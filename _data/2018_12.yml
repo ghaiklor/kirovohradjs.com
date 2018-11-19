@@ -1,0 +1,106 @@
+become_a_partner_link: "tg://resolve?domain=anastasiia_pereverzieva"
+become_a_speaker_link: "tg://resolve?domain=anastasiia_pereverzieva"
+
+header:
+  title: "KropyvntyskyiJS"
+  date: "December 8, 2018"
+  time: "10:00"
+  register_link: "https://2event.com/events/1574316"
+
+organizers:
+  - name: "Евгений Обрезков"
+    photo: "ghaiklor.jpg"
+    telegram: "ghaiklor"
+    email: "ghaiklor@gmail.com"
+    mobile: "+380502266791"
+
+  - name: "Дмитрий Богданов"
+    photo: "dmytro.bohdanov.jpg"
+    telegram: "dmytro.bohdanov"
+    email: "dmytro.bohdanov@gmail.com"
+    mobile: "+380954650411"
+
+  - name: "Анастасия Переверзева"
+    photo: "nastya.smirnova.jpg"
+    telegram: "anastasiia_pereverzieva"
+    email: "smirnovanastya1602@gmail.com"
+    mobile: "+380664823933"
+
+  - name: "Дмитрий Барабаш"
+    photo: "dbarabash.jpg"
+    telegram: "dbarabashdev"
+    email: ""
+    mobile: ""
+
+partners:
+  - title: "IT-Hub KOWO"
+    logo: "kowo.png"
+    link: "http://kowo.me"
+
+  - title: "Ш++"
+    logo: "shplusplus.png"
+    link: "http://programming.kr.ua"
+
+  - title: "Onix-Systems"
+    logo: "onix.png"
+    link: "http://onix-systems.com"
+
+place:
+  address: "пер. Васильевский, 10 (5 этаж)"
+  date: "12 December, 2018, 10:00"
+  embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.4727396590315!2d32.260026!3d48.5050017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d042a48f0f1c7d%3A0xc9a5a31f2c3d98c1!2z0JTQoNCmICJTbWFydCBIb3VzZSI!5e0!3m2!1sru!2sua!4v1441121480868"
+
+schedule:
+  - time: "10:00"
+    speaker: "Registration"
+    title: ""
+
+  - time: "10:30"
+    speaker: "Organizers"
+    title: "Opening"
+
+  - time: "10:45"
+    speaker: "Vlad Dotsenko"
+    title: "People do n̶o̶t̶ like JavaScript"
+
+  - time: "11:35"
+    speaker: "Vladimir Perepelytsia"
+    title: "React 16.6 real practice"
+
+  - time: "12:35"
+    speaker: "Александр Sirotenko"
+    title: "Обзор принципов работы виртуальных машин JavaScript"
+
+  - time: "13:25"
+    speaker: "Anton Verinov"
+    title: "npm explore npm"
+
+  - time: "14:15"
+    speaker: "Sergiy Koshman"
+    title: "Where canvas will provide benefits to your experience"
+
+speakers:
+  - name: "Антон Веринов @Evo"
+    title: "npm explore npm"
+    photo: "averinov.jpg"
+    bio: "Вечно бурчащий half-empty-stack developer с аллергией на хайп"
+
+  - name: "Влад Доценко @SigmaSoftware"
+    title: "People do n̶o̶t̶ like JavaScript"
+    photo: "vdotsenko.jpg"
+    bio: "JavaScript разработчик. Love, piece, JS."
+
+  - name: "Сергей Кошман @Levi9"
+    title: "Where canvas will provide benefits to your experience"
+    photo: "skoshman.jpg"
+    bio: "Фронтенд экспериментатор, активист beerJS, ко-организатор митапов AngularKyiv, KyivJs, волонтер, горд быть ментором на курсе kottans.org"
+
+  - name: "Александр Сиротенко @Aeneas"
+    title: "Обзор принципов работы виртуальных машин JavaScript"
+    photo: "asirotenko.jpg"
+    bio: "Young compilers lover"
+
+  - name: "Vladimir Perepelytsia @Onix-systems"
+    title: "React 16.6 real practice"
+    photo: "vperepelytsia.jpg"
+    bio: "React developer"
