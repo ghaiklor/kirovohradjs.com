@@ -37,18 +37,14 @@ partners:
     logo: "kowo.png"
     link: "http://kowo.me"
 
-  - title: "Ш++"
-    logo: "shplusplus.png"
-    link: "http://programming.kr.ua"
-
   - title: "Onix-Systems"
     logo: "onix.png"
     link: "http://onix-systems.com"
 
 place:
-  address: "пер. Васильевский, 10 (5 этаж)"
-  date: "12 December, 2018, 10:00"
-  embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.4727396590315!2d32.260026!3d48.5050017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d042a48f0f1c7d%3A0xc9a5a31f2c3d98c1!2z0JTQoNCmICJTbWFydCBIb3VzZSI!5e0!3m2!1sru!2sua!4v1441121480868"
+  address: "Vasylivskyi Ln, 10 (5th floor)"
+  date: "8 December, 2018, 10:00"
+  embed: "<iframe width="100%" height="500" src="https://maps.google.com/maps?q=kowo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>"
 
 schedule:
   - time: "10:00"
@@ -68,7 +64,7 @@ schedule:
     title: "React 16.6 real practice"
 
   - time: "12:35"
-    speaker: "Александр Sirotenko"
+    speaker: "Alexandr Sirotenko"
     title: "Обзор принципов работы виртуальных машин JavaScript"
 
   - time: "13:25"
@@ -80,27 +76,32 @@ schedule:
     title: "Where canvas will provide benefits to your experience"
 
 speakers:
-  - name: "Антон Веринов @Evo"
+  - name: "Anton Verinov"
+    company: "@Evo"
     title: "npm explore npm"
     photo: "averinov.jpg"
     bio: "Вечно бурчащий half-empty-stack developer с аллергией на хайп"
 
-  - name: "Влад Доценко @SigmaSoftware"
+  - name: "Vlad Dotsenko"
+    company: "@SigmaSoftware"
     title: "People do n̶o̶t̶ like JavaScript"
     photo: "vdotsenko.jpg"
     bio: "JavaScript разработчик. Love, piece, JS."
 
-  - name: "Сергей Кошман @Levi9"
+  - name: "Sergiy Koshman"
+    company: "@Levi9"
     title: "Where canvas will provide benefits to your experience"
     photo: "skoshman.jpg"
     bio: "Фронтенд экспериментатор, активист beerJS, ко-организатор митапов AngularKyiv, KyivJs, волонтер, горд быть ментором на курсе kottans.org"
 
-  - name: "Александр Сиротенко @Aeneas"
+  - name: "Alexandr Sirotenko"
+    company: "@Aeneas"
     title: "Обзор принципов работы виртуальных машин JavaScript"
     photo: "asirotenko.jpg"
     bio: "Young compilers lover"
 
-  - name: "Vladimir Perepelytsia @Onix-systems"
+  - name: "Vladimir Perepelytsia"
+    company: "@Onix-systems"
     title: "React 16.6 real practice"
     photo: "vperepelytsia.jpg"
     bio: "React developer"

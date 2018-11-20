@@ -42,6 +42,10 @@ header.header {
   min-height: 100vh;
   max-height: 100vh;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 45px;
 }
 
 header.header .title {
@@ -92,9 +96,8 @@ header.header .register a.button:hover {
 
 .header .container {
   display: flex;
-  width: 60vw;
-  height: 55vh;
-  margin: 5rem auto;
+  width: 70vw;
+  height: 50vh;
   align-items: center;
 }
 
@@ -220,7 +223,8 @@ section.partners .title h3 {
 
 section.partners ul {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 section.partners ul .partner {
