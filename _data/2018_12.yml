@@ -8,25 +8,25 @@ header:
   register_link: "https://2event.com/events/1574316"
 
 organizers:
-  - name: "Евгений Обрезков"
+  - name: "Eugene Obrezkov"
     photo: "ghaiklor.jpg"
     telegram: "ghaiklor"
     email: "ghaiklor@gmail.com"
     mobile: "+380502266791"
 
-  - name: "Дмитрий Богданов"
+  - name: "Dmytry Bohdanov"
     photo: "dmytro.bohdanov.jpg"
     telegram: "dmytro.bohdanov"
     email: "dmytro.bohdanov@gmail.com"
     mobile: "+380954650411"
 
-  - name: "Анастасия Переверзева"
+  - name: "Anastasiia Pereverzieva"
     photo: "nastya.smirnova.jpg"
     telegram: "anastasiia_pereverzieva"
     email: "smirnovanastya1602@gmail.com"
     mobile: "+380664823933"
 
-  - name: "Дмитрий Барабаш"
+  - name: "Dmytry Barabash"
     photo: "dbarabash.jpg"
     telegram: "dbarabashdev"
     email: ""
