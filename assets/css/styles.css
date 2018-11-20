@@ -114,13 +114,13 @@ header.header .register a.button:hover {
 }
 
 @media screen and (max-width: 1440px) {
-    .header .container { {
+    .header .container {
         width: 70vw;
     }
 }
 
 @media screen and (max-width: 430px) {
-    .header .container { {
+    .header .container {
         width: 90%;
     }
 }
