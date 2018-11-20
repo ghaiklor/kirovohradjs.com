@@ -82,17 +82,17 @@ speakers:
     photo: "averinov.jpg"
     bio: "Вечно бурчащий half-empty-stack developer с аллергией на хайп"
 
-  - name: "Vlad Dotsenko"
-    company: "@SigmaSoftware"
-    title: "People do n̶o̶t̶ like JavaScript"
-    photo: "vdotsenko.jpg"
-    bio: "JavaScript разработчик. Love, piece, JS."
-
   - name: "Sergiy Koshman"
     company: "@Levi9"
     title: "Where canvas will provide benefits to your experience"
     photo: "skoshman.jpg"
     bio: "Фронтенд экспериментатор, активист beerJS, ко-организатор митапов AngularKyiv, KyivJs, волонтер, горд быть ментором на курсе kottans.org"
+
+  - name: "Vlad Dotsenko"
+    company: "@SigmaSoftware"
+    title: "People do n̶o̶t̶ like JavaScript"
+    photo: "vdotsenko.jpg"
+    bio: "JavaScript разработчик. Love, piece, JS."
 
   - name: "Alexandr Sirotenko"
     company: "@Aeneas"

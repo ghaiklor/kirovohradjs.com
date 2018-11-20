@@ -382,9 +382,9 @@ section.speakers ul .photo img:hover {
   border-radius: 0;
 }
 
-section.speakers ul .name {
+/* section.speakers ul .name {
   margin-bottom: 0.3em;
-}
+} */
 
 section.speakers ul .name span {
   font-size: 16pt;
@@ -395,6 +395,14 @@ section.speakers ul .speech span {
   font-size: 12pt;
   font-weight: normal;
   color: #333333;
+}
+
+section.speakers .bio {
+  margin-top: .5rem;
+}
+
+section.speakers .company {
+  font-weight: bold;
 }
 
 section.speakers a.button {
