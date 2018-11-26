@@ -33,13 +33,13 @@ organizers:
     mobile: ""
 
 partners:
-  - title: "IT-Hub KOWO"
-    logo: "kowo.png"
-    link: "http://kowo.me"
-
   - title: "Onix-Systems"
     logo: "onix.png"
     link: "http://onix-systems.com"
+
+  - title: "IT-Hub KOWO"
+    logo: "kowo.png"
+    link: "http://kowo.me"
 
   - title: "Kinect.Pro"
     logo: "kinect.png"
