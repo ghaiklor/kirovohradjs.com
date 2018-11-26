@@ -41,6 +41,10 @@ partners:
     logo: "onix.png"
     link: "http://onix-systems.com"
 
+  - title: "Kinect.Pro"
+    logo: "kinect.png"
+    link: "http://kinect.pro/"
+
 place:
   address: "IT-Hub KOWO (Smart House, 5th floor)"
   date: "8 December, 2018, 10:00"
@@ -59,21 +63,41 @@ schedule:
     speaker: "Vlad Dotsenko"
     title: "People do n̶o̶t̶ like JavaScript"
 
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
   - time: "11:35"
     speaker: "Vladimir Perepelytsia"
     title: "React 16.6 real practice"
+
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
 
   - time: "12:35"
     speaker: "Alexandr Sirotenko"
     title: "Обзор принципов работы виртуальных машин JavaScript"
 
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
   - time: "13:25"
     speaker: "Anton Verinov"
     title: "npm explore npm"
 
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
   - time: "14:15"
     speaker: "Sergiy Koshman"
     title: "Where canvas will provide benefits to your experience"
+
+  - time: "15:00"
+    speaker: "Organizers"
+    title: "Closing"
 
 speakers:
   - name: "Anton Verinov"

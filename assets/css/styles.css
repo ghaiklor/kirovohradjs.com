@@ -106,7 +106,7 @@ header.header .register a.button:hover {
 }
 
 .header .container section:first-of-type {
-  height: 100%;
+  height: 80%;
 }
 
 .header .container section img {
@@ -117,11 +117,25 @@ header.header .register a.button:hover {
     .header .container {
         width: 70vw;
     }
+    .header .container section:first-of-type {
+      height: 80%;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
     .header .container {
         width: 90%;
+        display: block;
+        height: auto;
+    }
+
+    .header .container section:first-of-type {
+      height: initial;
+      margin-bottom: 3rem;
+    }
+
+    .header .container section:first-of-type img {
+      width: 60%;
     }
 }
 
@@ -338,10 +352,10 @@ section.schedule .title h3 {
   color: #FFFFFF;
 }
 
-section.schedule .schedule {
+/* section.schedule .schedule {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
+} */
 
 section.schedule .schedule table {
   background: none;
@@ -354,6 +368,7 @@ section.schedule .schedule table tr td {
   font-weight: normal;
   font-size: 12pt;
   text-align: center;
+  line-height: 3
 }
 
 /* SPEAKERS */
