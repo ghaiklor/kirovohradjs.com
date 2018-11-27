@@ -352,11 +352,6 @@ section.schedule .title h3 {
   color: #FFFFFF;
 }
 
-/* section.schedule .schedule {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-} */
-
 section.schedule .schedule table {
   background: none;
   border: 0 solid #000000;
@@ -408,10 +403,6 @@ section.speakers ul .photo img {
 section.speakers ul .photo img:hover {
   border-radius: 0;
 }
-
-/* section.speakers ul .name {
-  margin-bottom: 0.3em;
-} */
 
 section.speakers ul .name span {
   font-size: 16pt;
