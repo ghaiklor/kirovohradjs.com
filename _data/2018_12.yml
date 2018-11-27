@@ -48,7 +48,7 @@ partners:
 place:
   address: "IT-Hub KOWO (Smart House, 5th floor)"
   date: "8 December, 2018, 10:00"
-  embed: "https://maps.google.com/maps?q=kowo&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16348127.215667928!2d27.446327428540954!3d48.87477439658757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b7d0af0d912bae8!2sKOWO+creative+IT-space!5e0!3m2!1sen!2sus!4v1543326552979"
 
 schedule:
   - time: "10:00"
