@@ -3,7 +3,7 @@ title: "KropyvnytskyiJS &middot; Конференция для JS разрабо
 description: "KropyvnytskyiJS - это конференция для JavaScript и NodeJS разработчиков в Кропивницком"
 keywords: "Кропивницкий, KropyvnytskyiJS, Kropyvnytskyi, Кировоград, Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS"
 baseurl: ""
-url: "http://kropjs.com"
+url: "http://kropjs.kowo.me"
 
 # Build settings
 markdown: kramdown
