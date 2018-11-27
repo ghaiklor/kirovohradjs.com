@@ -1,9 +1,9 @@
 # Site settings
-title: "KirovohradJS &middot; Конференция для JS разработчиков в Кировограде"
-description: "KirovohradJS - это конференция для JavaScript и NodeJS разработчиков в Кировограде"
-keywords: "Кировоград, Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS"
+title: "KropyvnytskyiJS &middot; Конференция для JS разработчиков в Кропивницком"
+description: "KropyvnytskyiJS - это конференция для JavaScript и NodeJS разработчиков в Кропивницком"
+keywords: "Кропивницкий, KropyvnytskyiJS, Kropyvnytskyi, Кировоград, Kirovohrad, NodeJS, NodeSchool, JavaScript, KirovohradJS, KrJS"
 baseurl: ""
-url: "http://kirovohradjs.com"
+url: "http://kropjs.kowo.me"
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,131 @@
+become_a_partner_link: "tg://resolve?domain=anastasiia_pereverzieva"
+become_a_speaker_link: "tg://resolve?domain=anastasiia_pereverzieva"
+
+header:
+  title: "KropyvntyskyiJS"
+  date: "December 8, 2018"
+  time: "10:00"
+  register_link: "https://2event.com/events/1574316"
+
+organizers:
+  - name: "Eugene Obrezkov"
+    photo: "ghaiklor.jpg"
+    telegram: "ghaiklor"
+    email: "ghaiklor@gmail.com"
+    mobile: "+380502266791"
+
+  - name: "Dmytry Bohdanov"
+    photo: "dmytro.bohdanov.jpg"
+    telegram: "dmytro.bohdanov"
+    email: "dmytro.bohdanov@gmail.com"
+    mobile: "+380954650411"
+
+  - name: "Anastasiia Pereverzieva"
+    photo: "nastya.smirnova.jpg"
+    telegram: "anastasiia_pereverzieva"
+    email: "smirnovanastya1602@gmail.com"
+    mobile: "+380664823933"
+
+  - name: "Dmytry Barabash"
+    photo: "dbarabash.jpg"
+    telegram: "dbarabashdev"
+    email: ""
+    mobile: ""
+
+partners:
+  - title: "Onix-Systems"
+    logo: "onix.png"
+    link: "http://onix-systems.com"
+
+  - title: "IT-Hub KOWO"
+    logo: "kowo.png"
+    link: "http://kowo.me"
+
+  - title: "Kinect.Pro"
+    logo: "kinect.png"
+    link: "http://kinect.pro/"
+
+place:
+  address: "IT-Hub KOWO (Smart House, 5th floor)"
+  date: "8 December, 2018, 10:00"
+  embed: "https://maps.google.com/maps?q=kowo&t=&z=15&ie=UTF8&iwloc=&output=embed"
+
+schedule:
+  - time: "10:00"
+    speaker: ""
+    title: "Registration"
+
+  - time: "10:30"
+    speaker: "Organizers"
+    title: "Opening"
+
+  - time: "10:45"
+    speaker: "Vlad Dotsenko"
+    title: "People do n̶o̶t̶ like JavaScript"
+
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
+  - time: "11:35"
+    speaker: "Vladimir Perepelytsia"
+    title: "React 16.6 real practice"
+
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
+  - time: "12:35"
+    speaker: "Alexandr Sirotenko"
+    title: "Обзор принципов работы виртуальных машин JavaScript"
+
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
+  - time: "13:25"
+    speaker: "Anton Verinov"
+    title: "npm explore npm"
+
+  - time: ""
+    speaker: ""
+    title: "Coffee break"
+
+  - time: "14:15"
+    speaker: "Sergiy Koshman"
+    title: "Where canvas will provide benefits to your experience"
+
+  - time: "15:00"
+    speaker: "Organizers"
+    title: "Closing"
+
+speakers:
+  - name: "Anton Verinov"
+    company: "@Evo"
+    title: "npm explore npm"
+    photo: "averinov.jpg"
+    bio: "Вечно бурчащий half-empty-stack developer с аллергией на хайп"
+
+  - name: "Sergiy Koshman"
+    company: "@Levi9"
+    title: "Where canvas will provide benefits to your experience"
+    photo: "skoshman.jpg"
+    bio: "Фронтенд экспериментатор, активист beerJS, ко-организатор митапов AngularKyiv, KyivJs, волонтер, горд быть ментором на курсе kottans.org"
+
+  - name: "Vlad Dotsenko"
+    company: "@SigmaSoftware"
+    title: "People do n̶o̶t̶ like JavaScript"
+    photo: "vdotsenko.jpg"
+    bio: "JavaScript разработчик. Love, piece, JS."
+
+  - name: "Alexandr Sirotenko"
+    company: "@Aeneas"
+    title: "Обзор принципов работы виртуальных машин JavaScript"
+    photo: "asirotenko.jpg"
+    bio: "Young compilers lover"
+
+  - name: "Vladimir Perepelytsia"
+    company: "@Onix-systems"
+    title: "React 16.6 real practice"
+    photo: "vperepelytsia.jpg"
+    bio: "React developer"
