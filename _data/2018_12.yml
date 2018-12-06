@@ -45,6 +45,10 @@ partners:
     logo: "kinect.png"
     link: "http://kinect.pro/"
 
+  - title: "Youwe"
+    logo: "youwe.png"
+    link: "https://www.youwe.nl/"
+
 place:
   address: "IT-Hub KOWO (Smart House, 5th floor)"
   date: "8 December, 2018, 10:00"
